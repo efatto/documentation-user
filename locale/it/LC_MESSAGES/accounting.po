@@ -111,7 +111,7 @@ msgid ""
 " move directly to the next section `Import your first coda file "
 "<InstallCoda_>`_"
 msgstr ""
-"Se avete installato il Belga Grafico di Conto fornito con Odoo, la CODA "
+"Se avete installato il Belga Piano dei Conti fornito con Odoo, la CODA "
 "funzionalità di importazione è già installato di default. In tal caso, si "
 "può passare direttamente alla successiva sezione \" Importa la tua prima "
 "coda file <InstallCoda_>`_"
@@ -5878,7 +5878,7 @@ msgstr "**Profitti e Perdite**"
 
 #: ../../accounting/others/reporting/main_reports.rst:11
 msgid "**Chart of Account**"
-msgstr "**Grafico di Conto**"
+msgstr "**Piano dei Conti**"
 
 #: ../../accounting/others/reporting/main_reports.rst:12
 msgid "**Executive Summary**"
@@ -13329,8 +13329,8 @@ msgid ""
 " be reconciled on an invoice later on."
 msgstr ""
 "In applicazione di Contabilità, è possibile creare una nuova modalità di "
-"pagamento per le Vendite di menu (registra un cliente di pagamento) o gli "
-"Acquisti di menu (pagare un fornitore). Se si utilizzano questi menu, il "
+"pagamento per le Menu Vendite (registra un cliente di pagamento) o gli "
+"Menu Acquisti (pagare un fornitore). Se si utilizzano questi menu, il "
 "pagamento non è legata a una fattura, ma può facilmente essere riconciliato "
 "su una fattura in seguito."
 

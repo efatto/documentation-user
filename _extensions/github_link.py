@@ -93,7 +93,7 @@ def add_doc_link(app, pagename, templatename, context, doctree):
     """ Add github_link function linking to the current page on github """
     if not app.config.github_user and app.config.github_project:
         return
-
+    return
     # FIXME: find other way to recover current document's source suffix
     # in Sphinx 1.3 it's possible to have mutliple source suffixes and that
     # may be useful in the future
