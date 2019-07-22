@@ -1,0 +1,787 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015-TODAY, Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-26 15:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../discuss.rst:5
+msgid "Discuss"
+msgstr "Discutere"
+
+#: ../../discuss/email_servers.rst:3
+msgid "How to use my own email servers to send and receive email in Odoo"
+msgstr ""
+"Come utilizzare il mio server di posta per inviare e ricevere e-mail in Odoo"
+
+#: ../../discuss/email_servers.rst:6
+msgid "When is it needed"
+msgstr "Quando è necessario"
+
+#: ../../discuss/email_servers.rst:7
+msgid ""
+"Using your own email servers is required to send and receive messages in "
+"Odoo Community or Enterprise. Odoo Online embeds an out-of-box email "
+"solution that works straight away. However you can still use your own email "
+"servers with the online edition. Some insights are provided here below."
+msgstr ""
+"Utilizzo di un proprio server di posta elettronica è necessario per inviare "
+"e ricevere messaggi di Odoo Comunità o Impresa. Odoo Online incorpora un "
+"out-of-box-mail soluzione che funziona subito. Tuttavia è ancora possibile "
+"utilizzare il proprio server di posta elettronica con l'edizione online. "
+"Alcuni approfondimenti sono disponibili qui di seguito."
+
+#: ../../discuss/email_servers.rst:14
+msgid "How to set it up"
+msgstr "Come impostare il tutto"
+
+#: ../../discuss/email_servers.rst:15
+msgid ""
+"As a system admin, go to :menuselection:`Settings --> General Settings` and "
+"check *External Email Servers* (watch out: this checkbox only shows up after"
+" Odoo 10). Then, go through the following steps."
+msgstr ""
+"Come un amministratore di sistema, vai a :menuselection: Impostazioni --> "
+"Impostazioni Generali` e di controllo Esterno *Server di e-Mail* "
+"(attenzione: questa casella di controllo mostra solo dopo Odoo 10). Quindi, "
+"passare attraverso le seguenti fasi."
+
+#: ../../discuss/email_servers.rst:21
+msgid ""
+"Office 365 email servers don't allow easily to send external emails from "
+"hosts like Odoo. Refer to the `Office 365 documentation`_ to make it "
+"working."
+msgstr ""
+"Office 365 server di posta elettronica non permettono facilmente di inviare "
+"messaggi di posta esterni da host come Odoo. Consultare la sezione \" Office"
+" 365 documentazione`_ a farlo funzionare."
+
+#: ../../discuss/email_servers.rst:27
+msgid "Set an outgoing email server for outbound messages"
+msgstr "Impostare un server di posta in uscita per i messaggi in uscita"
+
+#: ../../discuss/email_servers.rst:28
+msgid ""
+"You need the SMTP data of your email provider (Gmail, Outlook, Yahoo, AOL, "
+"etc.) as well as your admin credentials. Once all the information has been "
+"filled out, click on *Test Connection*."
+msgstr ""
+"È necessario i dati SMTP del tuo provider di posta elettronica (Gmail, "
+"Outlook, Yahoo, AOL, ecc.) così come le credenziali di amministratore. Una "
+"volta che tutte le informazioni è stata completata, fare clic su *Test di "
+"Connessione*."
+
+#: ../../discuss/email_servers.rst:36
+msgid "Set an incoming email server for inbound messages"
+msgstr "Impostare un server di posta in arrivo per i messaggi in entrata"
+
+#: ../../discuss/email_servers.rst:37
+msgid ""
+"Fill out the form according to your email provider’s settings. Leave the "
+"*Actions to Perform on Incoming Mails* blank. Once all the information has "
+"been filled out, click on *TEST & CONFIRM*."
+msgstr ""
+"Compila il modulo secondo le vostre impostazioni del provider di posta. "
+"Lasciare l' *Azioni da Eseguire sui messaggi in Arrivo* vuoto. Una volta che"
+" tutte le informazioni è stata completata, fare clic su *TEST e CONFERMARE*."
+
+#: ../../discuss/email_servers.rst:44
+msgid ""
+"By default inbound messages are fetched every 5 minutes. You can change this"
+" value in developer mode. Go to :menuselection:`Settings --> Technical --> "
+"Automation --> Scheduled Actions` and look for *Mail: Fetchmail Service*."
+msgstr ""
+"Per impostazione predefinita, i messaggi in entrata vengono recuperati ogni "
+"5 minuti. È possibile modificare questo valore in modalità sviluppatore. Vai"
+" a :menuselection: Impostazioni --> Tecnica --> Automazione --> le Azioni "
+"Pianificate \" e cerca *Mail: Fetchmail Servizio*."
+
+#: ../../discuss/email_servers.rst:50
+msgid "Set the domain name"
+msgstr "Impostare il nome di dominio"
+
+#: ../../discuss/email_servers.rst:51
+msgid ""
+"Enter the domain name of your email servers (e.g. mycompany.com) in General "
+"Settings."
+msgstr ""
+"Immettere il nome di dominio del server di posta elettronica (ad es. "
+"mycompany.com) in Impostazioni Generali."
+
+#: ../../discuss/email_servers.rst:58
+msgid "Create a catchall address"
+msgstr "Creare un ripostiglio indirizzo"
+
+#: ../../discuss/email_servers.rst:59
+msgid ""
+"When a contact replies to an email sent from Odoo, the *reply-to* address is"
+" a generic address used to route the reply to the right discussion thread in"
+" Odoo (opportunity, order, task, etc.) and to the inbox of all its "
+"followers. By default this address is \"catchall@\" but it can be changed."
+msgstr ""
+"Quando un contatto si risponde a un messaggio di posta elettronica inviato "
+"Odoo, la *risposta* l'indirizzo è un indirizzo generico utilizzato per "
+"instradare la risposta a destra thread di discussione in Odoo (opportunità, "
+"ordine, attività, etc.) e per la posta in arrivo di tutti i suoi seguaci. "
+"Per impostazione predefinita, questo indirizzo è \"catchall@\", ma può "
+"essere modificato."
+
+#: ../../discuss/email_servers.rst:64
+msgid ""
+"Create a catchall address in your email server settings. We advise you to "
+"use \"catchall@\" so that everything works out straight away. If you want to"
+" use another alias, you have extra steps in Odoo:"
+msgstr ""
+"Creare un ripostiglio indirizzo e-mail impostazioni del server. Noi "
+"consigliamo di usare il \"minestrone\" @\" in modo che tutto funziona "
+"subito. Se si desidera utilizzare un altro alias, si sono passaggi "
+"aggiuntivi Odoo:"
+
+#: ../../discuss/email_servers.rst:68
+msgid "Activate the developer mode from your Settings Dashboard."
+msgstr ""
+"Attivare la modalità sviluppatore da Impostazioni pannello di controllo."
+
+#: ../../discuss/email_servers.rst:73
+msgid ""
+"Refresh your screen. Then go to :menuselection:`Settings --> Technical --> "
+"Parameters --> System Parameters` and enter your custom catchall alias in "
+"*mail.catchall.alias*."
+msgstr ""
+"Aggiornare la schermata. Quindi vai a :menuselection: Impostazioni --> "
+"Tecnica --> Parametri> Parametri di Sistema \" e inserisci il tuo "
+"personalizzato ripostiglio alias *mail.catchall.alias*."
+
+#: ../../discuss/email_servers.rst:80
+msgid "You can edit the email alias used for bounced messages the same way."
+msgstr ""
+"È possibile modificare l'alias di posta elettronica utilizzato per i "
+"messaggi non recapitati allo stesso modo."
+
+#: ../../discuss/email_servers.rst:83
+msgid "How to use my own email servers with Odoo Online"
+msgstr "Come utilizzare il mio server di posta con Odoo Online"
+
+#: ../../discuss/email_servers.rst:84
+msgid ""
+"Odoo Online comes up with an embedded and ready-to-use email solution with "
+"*@yourcompany.odoo.com* as domain. We recommend to keep this default setup "
+"as it is really convenient."
+msgstr ""
+"Odoo on-line viene fornito con un embedded e pronti per l'uso-soluzione "
+"e-mail con *@yourcompany.odoo.com* come dominio. Noi raccomandiamo di "
+"mantenere questa impostazione di default come è realmente conveniente."
+
+#: ../../discuss/email_servers.rst:88
+msgid ""
+"Nevertheless you can still use your own email servers if you want to manage "
+"your email server's reputation (blacklisting, etc). The configuration for "
+"both incoming and outgoing mail servers is given here above."
+msgstr ""
+"Tuttavia si può ancora utilizzare il proprio server di posta elettronica se "
+"si desidera gestire il vostro server di posta elettronica reputazione (lista"
+" nera, ecc). La configurazione in arrivo e server di posta in uscita è dato "
+"qui sopra."
+
+#: ../../discuss/email_servers.rst:93
+msgid ""
+"However when it comes to incoming messages, we don't recommend to "
+"exclusively use your own email server. Indeed, Odoo Online is fetching "
+"incoming messages from the email server once every hour only. To receive "
+"emails in real time, you should rather use a **catchall redirection** (your "
+"server -> Odoo server). To do so:"
+msgstr ""
+"Tuttavia, quando si tratta di messaggi in arrivo, si consiglia di non "
+"utilizzare esclusivamente il proprio server di posta elettronica. Infatti, "
+"Odoo Online è il recupero dei messaggi in arrivo dal server e-mail una volta"
+" ogni ora. Per ricevere le email in tempo reale, si dovrebbe invece "
+"utilizzare un **catchall reindirizzamento** (server -> Odoo server). Per "
+"farlo:"
+
+#: ../../discuss/email_servers.rst:99
+msgid ""
+"Create a catchall address in your email server settings (e.g. catchall)."
+msgstr ""
+"Creare un ripostiglio indirizzo e-mail impostazioni del server (ad esempio, "
+"ripostiglio)."
+
+#: ../../discuss/email_servers.rst:100
+msgid ""
+"Still from such settings, set a redirection from this catchall address to "
+"Odoo's one: catchall@yourdomain.ext -> catchall@yourcompany.odoo.com."
+msgstr ""
+"Ancora da tali impostazioni, impostare un reindirizzamento da questo "
+"\"minestrone\" indirizzo di Odoo uno: catchall@yourdomain.ext -> "
+"catchall@yourcompany.odoo.com."
+
+#: ../../discuss/email_servers.rst:103
+msgid ""
+"In Odoo check *External Email Servers* in :menuselection:`Settings --> "
+"General Settings` and enter your email domain name (i.e. yourdomain.ext)."
+msgstr ""
+"In Odoo di controllo Esterno *Server di Posta* in :menuselection: "
+"Impostazioni --> Impostazioni Generali \" e inserisci la tua email nome di "
+"dominio (cioè yourdomain.ext)."
+
+#: ../../discuss/email_servers.rst:105
+msgid "No need to set up an incoming email server in such a case."
+msgstr ""
+"Non c'è bisogno di impostare un server di posta in arrivo, in tal caso."
+
+#: ../../discuss/email_servers.rst:109
+msgid "How to be SPF-compliant when using external email servers in Odoo"
+msgstr ""
+"Come essere SPF-compatibile quando si utilizza esterni server di posta in "
+"Odoo"
+
+#: ../../discuss/email_servers.rst:110
+msgid ""
+"Sender Policy Framework (SPF) is an email-validation system that checks that"
+" incoming mail from a domain comes from a host authorized by that domain's "
+"administrator. Such a security system is used in most email servers. If you "
+"don't comply with it, your emails sent from Odoo will be likely flagged as "
+"spam."
+msgstr ""
+"SPF (Sender Policy Framework) è un e-mail di convalida del sistema che "
+"controlla la posta in arrivo da un dominio proviene da un host autorizzato "
+"dal dominio dell'amministratore. Un tale sistema di sicurezza è utilizzato "
+"nella maggior parte dei server di posta elettronica. Se non si rispettano, "
+"il tuo e-mail inviate da Odoo sarà probabilmente contrassegnati come spam."
+
+#: ../../discuss/email_servers.rst:116
+msgid ""
+"To be SPF-compliant, you need to authorize Odoo as a sending host in your "
+"domain name settings:"
+msgstr ""
+"Per essere SPF-compatibile, è necessario autorizzare Odoo come un host di "
+"invio nel tuo nome di dominio di impostazioni:"
+
+#: ../../discuss/email_servers.rst:119
+msgid "Sign in to your domain’s account at your domain host."
+msgstr "Accedi al tuo account del dominio al tuo host di dominio."
+
+#: ../../discuss/email_servers.rst:120
+msgid "Locate the page for updating your domain’s DNS records."
+msgstr "Individuare la pagina per aggiornare i record DNS del dominio."
+
+#: ../../discuss/email_servers.rst:121
+msgid ""
+"If no TXT record is set, create one with following definition: v=spf1 "
+"include:_spf.odoo.com ~all"
+msgstr ""
+"Se nessun record TXT è impostato, creare una con la seguente definizione: "
+"v=spf1 include:_spf.odoo.com ~tutti"
+
+#: ../../discuss/email_servers.rst:123
+msgid "In case a TXT record is already set, add \"include:_spf.odoo.com\"."
+msgstr ""
+"Nel caso di un record TXT è già impostato, aggiungere "
+"\"include:_spf.odoo.com\"."
+
+#: ../../discuss/email_servers.rst:125
+msgid "e.g. for a Gmail server it should be:"
+msgstr "ad esempio per un server di Gmail dovrebbe essere:"
+
+#: ../../discuss/email_servers.rst:127
+msgid "v=spf1 include:_spf.odoo.com include:_spf.google.com ~all"
+msgstr "v=spf1 include:_spf.odoo.com include:_spf.google.com ~tutti"
+
+#: ../../discuss/email_servers.rst:129
+msgid ""
+"Find `here <https://www.mail-tester.com/spf/>`__ the exact procedure to "
+"create or modify TXT records in your own domain registrar."
+msgstr ""
+"Trovare `qui <https://www.mail-tester.com/spf/>`__ l'esatta procedura per "
+"creare o modificare i record TXT nel tuo registrar di domini."
+
+#: ../../discuss/email_servers.rst:132
+msgid ""
+"Your new SPF record can take up to 48 hours to go into effect, but this "
+"usually happens more quickly."
+msgstr ""
+"Il nuovo record SPF può richiedere fino a 48 ore per entrare in vigore, ma "
+"questo di solito avviene più rapidamente."
+
+#: ../../discuss/email_servers.rst:135
+msgid ""
+"Adding more than one SPF record for a domain can cause problems with mail "
+"delivery and spam classification. Instead, we recommend using only one SPF "
+"record by modifying it to authorize Odoo."
+msgstr ""
+"L'aggiunta di più di un record SPF per un dominio può causare problemi con "
+"la consegna della posta e classificazione di spam. Invece, si consiglia di "
+"utilizzare un solo record SPF modificando si autorizza Odoo."
+
+#: ../../discuss/email_servers.rst:140
+msgid "How to choose between Odoo and my traditional email box"
+msgstr ""
+"Come scegliere tra Odoo e il mio tradizionale casella di posta elettronica"
+
+#: ../../discuss/email_servers.rst:141
+msgid ""
+"Odoo Discuss is a perfect tool to send and read messages related to business"
+" documents. However it doesn't aim to replace a full-featured email solution"
+" (Gmail, Outlook, Yahoo, AOL, etc.). We recommend to take the most out of "
+"both systems without mingling them: What is related to Odoo business objects"
+" or applications goes into Odoo; What is not can be managed into your "
+"external email box."
+msgstr ""
+"Odoo Discutere è un perfetto strumento per inviare e leggere i messaggi "
+"relativi ai documenti aziendali. Tuttavia essa non mira a sostituire una "
+"completa soluzione per la posta elettronica (Gmail, Outlook, Yahoo, AOL, "
+"ecc.). Si consiglia di prendere il meglio di entrambi i sistemi senza "
+"commistione di loro: Ciò che è legato alla Odoo business objects o "
+"applicazioni va in Odoo; Ciò che non può essere gestito in esterna, per una "
+"casella di posta elettronica."
+
+#: ../../discuss/email_servers.rst:148
+msgid ""
+"To do so, create specific email aliases to use in Odoo (to generate leads or"
+" opportunities, helpdesk tickets, etc.). If you take an email alias already "
+"used for messaging outside of Odoo, incoming messages will land into both "
+"systems. This will negatively impact your productivity."
+msgstr ""
+"Per farlo, creare gli alias di posta elettronica da utilizzare in Odoo (per "
+"generare lead o di opportunità, helpdesk biglietti, etc.). Se si prende un "
+"email alias già utilizzati per i messaggi al di fuori di Odoo, in arrivo i "
+"messaggi di terra in entrambi i sistemi. Questo avrà un impatto negativo "
+"sulla produttività."
+
+#: ../../discuss/mail_twitter.rst:3
+msgid "How to follow Twitter feed from Odoo"
+msgstr "Come seguire i feed di Twitter da Odoo"
+
+#: ../../discuss/mail_twitter.rst:8
+msgid ""
+"You can follow specific hashtags on Twitter and see the tweets within the "
+"Odoo Discuss channels of your choice. The tweets are retrieved periodically "
+"from Twitter. An authenticated user can retweet the messages."
+msgstr ""
+"Puoi seguire specifici hashtag su Twitter e vedere i tweet all'interno di "
+"Odoo Discutere i canali di vostra scelta. I tweet sono recuperate "
+"periodicamente da Twitter. Un utente autenticato può retweet i messaggi."
+
+#: ../../discuss/mail_twitter.rst:13
+msgid "Setting up the App on Twitter's side"
+msgstr "Impostazione dell'App su Twitter lato"
+
+#: ../../discuss/mail_twitter.rst:15
+msgid ""
+"Twitter uses an \"App\" on its side which is opens a gate to which Odoo asks"
+" for tweets, and through which a user can retweet. To set up this app, go to"
+" http://apps.twitter.com/app/new and put in the values:"
+msgstr ""
+"Twitter utilizza una \"App\" sul lato che si apre una porta alla quale Odoo "
+"chiede tweet, e attraverso il quale un utente può retweet. Per impostare "
+"questa app, andare a http://apps.twitter.com/app/new e mettere i valori:"
+
+#: ../../discuss/mail_twitter.rst:19
+msgid "Name: this is the name of the application on Twitter"
+msgstr "Nome: questo è il nome dell'applicazione su Twitter"
+
+#: ../../discuss/mail_twitter.rst:21
+msgid ""
+"Website: this is the external url of your Odoo database, with \"/web\" "
+"added. For example, if your Odoo instance is hosted at "
+"\"http://www.example.com\", you should put \"http://www.example.com/web\" in"
+" this field."
+msgstr ""
+"Sito web: questo è l'url esterno del vostro Odoo database, con \"web\", ha "
+"aggiunto. Per esempio, se il vostro Odoo istanza, ospitato presso il "
+"\"http://www.example.com\" si dovrebbe mettere "
+"\"http://www.example.com/web\" in questo campo."
+
+#: ../../discuss/mail_twitter.rst:25
+msgid ""
+"Callback URL: this is the address on which Twitter will respond. Following "
+"the previous example you should write "
+"\"http://www.example.com/web/twitter/callback\"."
+msgstr ""
+"Callback URL: questo è l'indirizzo su cui Twitter risponde. Seguendo "
+"l'esempio precedente, si dovrebbe scrivere "
+"\"http://www.example.com/web/twitter/callback\"."
+
+#: ../../discuss/mail_twitter.rst:28
+msgid ""
+"Do not forget to accept the terms **Developer agreement** of use and click "
+"on **Create your Twitter application** at the bottom of the page."
+msgstr ""
+"Non dimenticate di accettare i termini **Sviluppatore accordo** di "
+"utilizzare e fare clic su **Creare la vostra applicazione Twitter** in fondo"
+" alla pagina."
+
+#: ../../discuss/mail_twitter.rst:33
+msgid "Getting the API key and secret"
+msgstr "Ottenere la chiave API e segreto"
+
+#: ../../discuss/mail_twitter.rst:35
+msgid ""
+"When on the App dashboard, switch to the **Keys and Access Tokens** tab."
+msgstr ""
+"Quando su App dashboard, passare alla **Tasti e Token di Accesso** tab."
+
+#: ../../discuss/mail_twitter.rst:40
+msgid ""
+"And copy those values in Odoo in :menuselection:`Settings--> General "
+"Settings--> Twitter discuss integration` and click on **Save** to save the "
+"settings."
+msgstr ""
+"E copiare i valori in Odoo in :menuselection: Impostazioni--> Impostazioni "
+"Generali--> Twitter discutere dell'integrazione \" e fare clic su **Salva** "
+"per salvare le impostazioni."
+
+#: ../../discuss/mentions.rst:3
+msgid "How to grab attention of other users in my messages"
+msgstr "Come catturare l'attenzione di altri utenti nei miei messaggi"
+
+#: ../../discuss/mentions.rst:5
+msgid ""
+"You can **mention** a user in a channel or chatter by typing **@user-name**."
+" Mentioning a user in the chatter will set them as a follower of the item "
+"(if they are not already) and send a message to their inbox. The item "
+"containing the mention will also be bolded in the list view. Mentioning a "
+"user in a channel will send a message to their inbox. You cannot mention a "
+"user in a channel who is not subscribed to the channel. Typing **#channel-"
+"name** will provide a link to the mentioned channel in either a chatter or "
+"another channel."
+msgstr ""
+"È possibile: *parlare** un utente in un canale o chiacchiere digitando "
+"**@nome utente**. Menzionare un utente del chatter li come un seguace del "
+"bene (se non sono già) e inviare un messaggio di posta in arrivo. L'elemento"
+" contenente la menzione anche essere in grassetto nell'elenco di "
+"visualizzazione. Menzionare un utente in un canale per inviare un messaggio "
+"di posta in arrivo. Non si può parlare di un utente in un canale che non è "
+"iscritto al canale. Digitando **#canale-nome** verrà fornito un link per il "
+"citato canale in chiacchiere o in un altro canale."
+
+#: ../../discuss/mentions.rst:15
+msgid "Direct messaging a user"
+msgstr "I messaggi diretti di un utente"
+
+#: ../../discuss/mentions.rst:17
+msgid ""
+"**Direct messages** are private messages viewable only by the sender and "
+"recipient. You can send direct messages to other users from within the "
+"Discuss module by creating a new conversation or selecting an existing one "
+"from the sidebar. Direct messages can be sent from anywhere in Odoo using "
+"the speech bubble icon in the top bar. The online status of other users is "
+"displayed to the left of their name. A **green dot** indicates that a user "
+"is Online, an **orange dot** that they are Idle, and a **grey dot** that "
+"they are offline."
+msgstr ""
+"**Messaggi diretti** sono i messaggi privati visualizzabile solo dal "
+"mittente e dal destinatario. È possibile inviare messaggi diretti ad altri "
+"utenti all'interno di Discutere, modulo per la creazione di una nuova "
+"conversazione o la selezione di uno esistente nella barra laterale. Diretto "
+"i messaggi possono essere inviati da qualsiasi parte Odoo utilizzando il "
+"fumetto icona nella barra in alto. Lo stato online di altri utenti è "
+"visualizzato a sinistra del loro nome. A **punto verde** indica che un "
+"utente è Online, un **orange dot** che sono Inattivi, e un **grigio dot** "
+"che non sono in linea."
+
+#: ../../discuss/mentions.rst:28
+msgid "Desktop notifications from Discuss"
+msgstr "Le notifiche Desktop da Discutere"
+
+#: ../../discuss/mentions.rst:30
+msgid ""
+"You can choose to see **desktop notifications** when you receive a new "
+"direct message. The notification shows you the sender and a brief preview of"
+" the message contents. These can be configured or disabled by clicking on "
+"the gear icon in the corner of the notification.."
+msgstr ""
+"È possibile scegliere di vedere **le notifiche desktop** quando si riceve un"
+" nuovo messaggio diretto. La notifica indica il mittente e una breve "
+"anteprima del contenuto del messaggio. Questi possono essere configurati o "
+"disabili, cliccando sull'icona a forma di ingranaggio nell'angolo della "
+"notifica."
+
+#: ../../discuss/monitoring.rst:3
+msgid "How to be responsive at work thanks to my Odoo inbox"
+msgstr "Come essere sensibile al lavoro grazie al mio Odoo posta in arrivo"
+
+#: ../../discuss/monitoring.rst:5
+msgid ""
+"Use the **Inbox** in Discuss app to monitor updates and progress on "
+"everything you do in Odoo. Notifications and messages from everything you "
+"follow or in which you are mentioned appear in your inbox."
+msgstr ""
+"Utilizzare il **in Arrivo** a Discutere app per monitorare gli aggiornamenti"
+" e il progresso in tutto quello che fate in Odoo. Le notifiche e i messaggi "
+"da tutto ciò che si seguono o in cui si sono citati a comparire nella tua "
+"casella di posta."
+
+#: ../../discuss/monitoring.rst:13
+msgid "You can keep an eye on your **Inbox** from any screen."
+msgstr ""
+"È possibile mantenere un occhio sul vostro **in Arrivo** da qualsiasi "
+"schermata."
+
+#: ../../discuss/monitoring.rst:18
+msgid ""
+"Marking an item with a check marks the message as **read** and removes it "
+"from your inbox. If you would like to save an item for future reference or "
+"action, mark it with a star to add it to the **Starred** box. You can star "
+"any message or notification in Discuss or any of the item-specific chatters "
+"throughout Odoo to keep tabs on it here."
+msgstr ""
+"Contrassegno di un elemento con un segno di spunta il messaggio come "
+"**leggere** e la rimuove dalla posta in arrivo. Se si desidera salvare un "
+"elemento di riferimento per il futuro o azione, marchio con una stella da "
+"aggiungere a **Interpretato** casella. Si può star qualsiasi messaggio o "
+"notifica a Discutere o di qualsiasi elemento specifico di persone in tutto "
+"Odoo tenere d'occhio su di esso qui."
+
+#: ../../discuss/overview.rst:3
+msgid "Why to use Odoo Discuss"
+msgstr "Perché utilizzare Odoo Discutere"
+
+#: ../../discuss/overview.rst:5
+msgid ""
+"Odoo Discuss is an easy to use messaging app for teams that brings all your "
+"organization's communication into one place and seamlessly integrates with "
+"the Odoo platform. Discuss lets you send and receive messages from wherever "
+"you are in Odoo as well as manage your messages and notifications easily "
+"from within the app. Discuss allows you to create **channels** for team "
+"chats, conversations about projects, meeting coordination, and more in one "
+"simple and searchable interface."
+msgstr ""
+"Odoo Discutere è un facile da usare app di messaggistica per la squadra che "
+"porta tutti i vostri organizzazione della comunicazione in un posto e si "
+"integra perfettamente con il Odoo piattaforma. Discutere consente di inviare"
+" e ricevere messaggi da qualsiasi Odoo, nonché di gestire i vostri messaggi "
+"e notifiche facilmente dall'interno dell'applicazione. Discutere consente di"
+" creare **canali** * per squadra chat, conversazioni su progetti, riunioni "
+"di coordinamento, e di più in un semplice e ricercabili interfaccia."
+
+#: ../../discuss/team_communication.rst:3
+msgid "How to efficiently communicate in team using channels"
+msgstr "Come comunicare efficacemente in team utilizzando canali"
+
+#: ../../discuss/team_communication.rst:5
+msgid ""
+"You can use **channels** to organize discussions between individual teams, "
+"departments, projects, or any other group that requires regular "
+"communication. By having conversations that everyone in the channel can see,"
+" it's easy to keep the whole team in the loop with the latest developments."
+msgstr ""
+"È possibile utilizzare **canali** * per organizzare discussioni tra i "
+"singoli gruppi, i dipartimenti, progetti, o qualsiasi altro gruppo che "
+"richiede una regolare comunicazione. Avendo conversazioni che tutti nel "
+"canale può vedere, è facile da mantenere tutta la squadra in loop con gli "
+"ultimi sviluppi."
+
+#: ../../discuss/team_communication.rst:12
+msgid "Creating a channel"
+msgstr "La creazione di un canale"
+
+#: ../../discuss/team_communication.rst:14
+msgid ""
+"In Discuss there are two types of channels - **public** and **private**."
+msgstr ""
+"Nel Discutere ci sono due tipi di canali - **pubblico** e **privato**."
+
+#: ../../discuss/team_communication.rst:17
+msgid ""
+"A **public channel** can only be created by an administrator with write "
+"privileges and can be seen by everyone in the organization. By contrast, a "
+"**private channel** can be created by any user and by default is only "
+"visible to users who have been invited to this channel."
+msgstr ""
+"A **canale pubblico** può essere creato solo da un amministratore con "
+"privilegi di scrittura e può essere visto da tutti i membri "
+"dell'organizzazione. Per contro, un **canale privato** può essere creato da "
+"qualsiasi utente e per impostazione predefinita è visibile solo per gli "
+"utenti che sono stati invitati a questo canale."
+
+#: ../../discuss/team_communication.rst:24
+msgid ""
+"A public channel is best used when many employees need to access information"
+" (such as interdepartmental communication or company announcements), whereas"
+" a private channel should be used whenever information should be limited to "
+"specific users/employees (such as department specific or sensitive "
+"information)."
+msgstr ""
+"Un canale pubblico è utilizzato al meglio quando molti dipendenti hanno "
+"bisogno di accedere alle informazioni (come interdipartimentale di ricerca e"
+" servizi di comunicazione o annunci di azienda), mentre un canale privato "
+"deve essere utilizzato ogni volta che le informazioni dovrebbero essere "
+"limitato a specifici utenti/dipendenti (come il reparto specifico o di "
+"informazioni sensibili)."
+
+#: ../../discuss/team_communication.rst:31
+msgid "Configuring a channel"
+msgstr "La configurazione di un canale"
+
+#: ../../discuss/team_communication.rst:33
+msgid ""
+"You can configure a channel's name, description, access rights, automatic "
+"subscription, and emailing from :menuselection:`#channel-name --> Settings`."
+" Changing channel access rights allows you to control which groups can view "
+"each channel. You can make a channel visible by all users, invited users, or"
+" users within a selected user group. Note that allowing \"Everyone\" to "
+"follow a private channel will let other users view and join it as they would"
+" a public channel."
+msgstr ""
+"È possibile configurare un canale, il nome, la descrizione, i diritti di "
+"accesso, abbonamento automatico, e-mail da :menuselection:`#canale-nome --> "
+"Impostazioni`. Cambiando canale diritti di accesso consente di controllare i"
+" gruppi possono vedere ogni canale. Si può fare un canale visibile da tutti "
+"gli utenti, ha invitato gli utenti all'interno di un selezionato gruppo di "
+"utenti. Nota che permettere a \"Tutti\" a seguire un canale privato potrà "
+"consentire agli altri utenti di visualizzare e partecipare ad esso come se "
+"fosse un canale pubblico."
+
+#: ../../discuss/team_communication.rst:47
+msgid "How to set up a mailing list"
+msgstr "Come impostare una mailing list"
+
+#: ../../discuss/team_communication.rst:49
+msgid ""
+"A channel can be configured to behave as a mailing list. From within "
+":menuselection:`#channel-name --> Settings`, define the email you would like"
+" to use. Users can then post to the channel and choose to receive "
+"notifications using the defined email address. An envelope icon will appear "
+"next to the channel name in the list to indicate that a channel will send "
+"messages by email."
+msgstr ""
+"Un canale può essere configurato per funzionare come una mailing list. "
+"Dall'interno :menuselection:`#canale-nome --> Impostazioni`, definire "
+"l'e-mail che si desidera utilizzare. Gli utenti possono postare in canale e "
+"scegliere di ricevere le notifiche utilizzando un determinato indirizzo "
+"email. Un'icona a forma di busta apparirà accanto al nome del canale nella "
+"lista per indicare che un canale per l'invio di messaggi via e-mail."
+
+#: ../../discuss/team_communication.rst:57
+msgid "Locating a channel"
+msgstr "Individuazione di un canale"
+
+#: ../../discuss/team_communication.rst:59
+msgid ""
+"If you do not see a channel on your dashboard, you can search the list of "
+"**public channels** to locate the correct channel or create a new channel by"
+" clicking the plus icon."
+msgstr ""
+"Se non si riesce a vedere il canale sul cruscotto della vostra auto, è "
+"possibile cercare l'elenco dei **canali pubblici** per individuare il canale"
+" corretto, o creare un nuovo canale cliccando l'icona con il segno più."
+
+#: ../../discuss/team_communication.rst:66
+msgid ""
+"You can also click the **CHANNELS** heading to browse a list of all public "
+"channels. This allows the user to manually **join** and **leave** public "
+"channels from a single screen."
+msgstr ""
+"È anche possibile fare clic sul **CANALI** * titolo per visualizzare un "
+"elenco di tutti i canali pubblici. Questo permette all'utilizzatore di "
+"**entra** e **lasciare** canali pubblici da una singola schermata."
+
+#: ../../discuss/team_communication.rst:71
+msgid ""
+"It is always wise to search for a channel before creating a new one to "
+"ensure that duplicate entries are not created for the same topic."
+msgstr ""
+"È sempre saggio per la ricerca di un canale prima di crearne uno nuovo per "
+"assicurarsi che le voci duplicate non sono create per lo stesso argomento."
+
+#: ../../discuss/team_communication.rst:76
+msgid "Using filters to navigate within Discuss"
+msgstr "Utilizza i filtri per navigare all'interno di Discutere"
+
+#: ../../discuss/team_communication.rst:78
+msgid ""
+"The topbar search provides access to the same comprehensive search function "
+"present in the rest of Odoo. You can apply multiple **filter criteria** and "
+"**save filters** for later use. The search function accepts wildcards by "
+"using the underscore character \"\\ **\\_**\\ \" to represent a **single "
+"character wildcard.**"
+msgstr ""
+"La topbar di ricerca fornisce l'accesso alle stesse completa funzione di "
+"ricerca presenti nel resto del Odoo. È possibile applicare più **criteri di "
+"filtro** e **salva i filtri** per un uso successivo. La funzione di ricerca "
+"accetta i caratteri jolly utilizzando il carattere di sottolineatura \"\\ "
+"**\\_**\\ \" per rappresentare un singolo carattere jolly.**"
+
+#: ../../discuss/tracking.rst:3
+msgid "How to follow a discussion thread and define what I want to hear about"
+msgstr ""
+"Come seguire un thread di discussione e di definire quello che voglio "
+"sentire parlare"
+
+#: ../../discuss/tracking.rst:6
+msgid "How to follow a discussion thread"
+msgstr "Come seguire un thread di discussione"
+
+#: ../../discuss/tracking.rst:7
+msgid ""
+"You can keep track of virtually any business object in Odoo (an opportunity,"
+" a quotation, a task, etc.), by **following** it."
+msgstr ""
+"È possibile tenere traccia di qualsiasi oggetto di affari in Odoo "
+"(un'opportunità, una citazione, un compito, etc.), da **segue** è."
+
+#: ../../discuss/tracking.rst:14
+msgid "How to choose the events to follow"
+msgstr "Come scegliere gli eventi da seguire"
+
+#: ../../discuss/tracking.rst:15
+msgid ""
+"You can choose which types of events you want to be notified about. The "
+"example below shows the options available when following a **task** in the "
+"**Project** app."
+msgstr ""
+"È possibile scegliere quali tipi di eventi che si desidera essere avvisati. "
+"L'esempio che segue mostra le opzioni disponibili quando si segue una "
+"**attività** a i **Progetto** app."
+
+#: ../../discuss/tracking.rst:23
+msgid "How to add other followers"
+msgstr "Come aggiungere altri seguaci"
+
+#: ../../discuss/tracking.rst:24
+msgid ""
+"You can invite other users and add channels as followers. Adding a channel "
+"as a follower will send messages posted in the chatter to the channel with a"
+" link back to the original document."
+msgstr ""
+"È possibile invitare altri utenti e aggiungere canali seguaci. L'aggiunta di"
+" un canale come un seguace invia messaggio pubblicato le chiacchiere al "
+"canale con un link al documento originale."
+
+#: ../../discuss/tracking.rst:34
+msgid "How to be a default follower"
+msgstr "Come essere un seguace di default"
+
+#: ../../discuss/tracking.rst:35
+msgid ""
+"You are automatically set as a default follower of any item you create. In "
+"some applications like CRM and Project, you can be a default follower of any"
+" new record created to get notified of specific events (e.g. a new task "
+"created, an opportunity won)."
+msgstr ""
+"Si sono automaticamente impostata come predefinita seguace di qualsiasi "
+"elemento creato. In alcune applicazioni, come CRM e di Progetto, si può "
+"essere un seguace di default di ogni nuovo record creato per ricevere la "
+"notifica di eventi specifici (ad esempio, una nuova attività creata, "
+"un'opportunità vinto)."
+
+#: ../../discuss/tracking.rst:40
+msgid ""
+"To do so, start following the parent business object (e.g. the sales channel"
+" in CRM, the project in Project). Then, choose the events you want to hear "
+"about."
+msgstr ""
+"Per farlo, iniziare a seguire il genitore oggetto di business (ad esempio il"
+" canale di vendita in CRM, il progetto in Progetto). Quindi, scegliere gli "
+"eventi che si vogliono sentir parlare."

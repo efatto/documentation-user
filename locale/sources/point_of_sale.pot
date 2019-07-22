@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2015-TODAY, Odoo S.A.
-# This file is distributed under the same license as the Odoo Business package.
+# This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Business 10.0\n"
+"Project-Id-Version: Odoo 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-09 09:44+0100\n"
+"POT-Creation-Date: 2019-07-22 08:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1465,11 +1465,11 @@ msgid "An internal identification of the point of sale."
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:0
-msgid "Sales Channel"
+msgid "Sales Team"
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:0
-msgid "This Point of sale's sales will be related to this Sales Channel."
+msgid "This Point of sale's sales will be related to this Sales Team."
 msgstr ""
 
 #: ../../point_of_sale/overview/start.rst:0

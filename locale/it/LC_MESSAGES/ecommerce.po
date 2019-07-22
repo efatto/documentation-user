@@ -1,0 +1,1711 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015-TODAY, Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 08:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../ecommerce.rst:5
+msgid "eCommerce"
+msgstr "e-commerce"
+
+#: ../../ecommerce/getting_started.rst:3
+msgid "Get started"
+msgstr "Iniziare"
+
+#: ../../ecommerce/getting_started/catalog.rst:3
+msgid "How to customize my catalog page"
+msgstr "Come personalizzare la mia pagina del catalogo"
+
+#: ../../ecommerce/getting_started/catalog.rst:6
+msgid "Product Catalog"
+msgstr "Catalogo Prodotti"
+
+#: ../../ecommerce/getting_started/catalog.rst:8
+msgid ""
+"All your published items show up in your catalog page (or *Shop* page)."
+msgstr ""
+"Tutti i vostri articoli pubblicati mostrate nella pagina del catalogo (o "
+"*Negozio* pagina)."
+
+#: ../../ecommerce/getting_started/catalog.rst:13
+msgid ""
+"Most options are available in the *Customize* menu: display attributes, "
+"website categories, etc."
+msgstr ""
+"La maggior parte delle opzioni sono disponibili nel *Personalizza* menu: gli"
+" attributi di visualizzazione, sito web, categorie, etc."
+
+#: ../../ecommerce/getting_started/catalog.rst:20
+msgid "Highlight a product"
+msgstr "Evidenziare un prodotto"
+
+#: ../../ecommerce/getting_started/catalog.rst:22
+msgid ""
+"Boost the visibility of your star/promoted products: push them to top, make "
+"them bigger, add a ribbon that you can edit (Sale, New, etc.). Open the Shop"
+" page, switch to Edit mode and click any item to start customizing the grid."
+msgstr ""
+"Aumentare la visibilità della tua stella/prodotti promossi: spingere verso "
+"l'alto, da renderli più grandi, aggiungere un nastro che è possibile "
+"modificare (Vendita, Nuovo, etc.). Aprire la pagina \"Shop\", passare alla "
+"modalità di Modifica e fare clic su qualsiasi elemento per iniziare a "
+"personalizzare la griglia."
+
+#: ../../ecommerce/getting_started/catalog.rst:26
+msgid ""
+"See how to do it: "
+"https://www.odoo.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+msgstr ""
+"Vedere come fare: "
+"https://www.odoo.com/openerp_website/static/src/video/e-commerce/editing.mp4"
+
+#: ../../ecommerce/getting_started/catalog.rst:29
+msgid "Quick add to cart"
+msgstr "Aggiunta rapida al carrello"
+
+#: ../../ecommerce/getting_started/catalog.rst:31
+msgid ""
+"If your customers buy a lot of items at once, make their process shorter by "
+"enabling purchases from the catalog page. To do so, add product description "
+"and add to cart button. Turn on the following options in *Customize* menu:  "
+"Product Description, Add to Cart, List View (to display product description "
+"better)."
+msgstr ""
+"Se i tuoi clienti a comprare un sacco di elementi in una sola volta, fanno "
+"il loro processo breve, consentendo acquisti dal catalogo pagina. Per fare "
+"questo, aggiungere una descrizione del prodotto e aggiungi al carrello. "
+"Attivare le seguenti opzioni *Personalizza* menu: Descrizione del Prodotto, "
+"Aggiungi al Carrello, Lista (per visualizzare la descrizione del prodotto "
+"migliore)."
+
+#: ../../ecommerce/getting_started/product_page.rst:3
+msgid "How to build a product page"
+msgstr "Come costruire una pagina di prodotto"
+
+#: ../../ecommerce/getting_started/product_page.rst:5
+msgid "On the website click *New Page* in the top-right corner."
+msgstr "Sul sito fare clic *Nuova Pagina* in alto a destra."
+
+#: ../../ecommerce/getting_started/product_page.rst:7
+msgid "Then click *New Product* and follow the blinking tips."
+msgstr "Quindi fare clic *Prodotto Nuovo* e seguire le lampeggiante consigli."
+
+#: ../../ecommerce/getting_started/product_page.rst:12
+msgid "Here are the main elements of the Product page:"
+msgstr "Qui di seguito i principali elementi della pagina del Prodotto:"
+
+#: ../../ecommerce/getting_started/product_page.rst:17
+msgid "Many elements can be made visible from the *Customize* menu."
+msgstr ""
+"Molti elementi possono essere resi visibili dall' *Personalizza* menu."
+
+#: ../../ecommerce/getting_started/product_page.rst:22
+msgid "See how to configure your products from links here below."
+msgstr "Vedere come configurare i vostri prodotti dal link qui sotto."
+
+#: ../../ecommerce/getting_started/product_page.rst:26
+msgid ":doc:`../managing_products/variants`"
+msgstr ":doc:`../managing_products/varianti`"
+
+#: ../../ecommerce/getting_started/product_page.rst:27
+msgid ":doc:`../../sales/products_prices/taxes`"
+msgstr ":doc:`../../vendite/products_prices/tasse`"
+
+#: ../../ecommerce/getting_started/product_page.rst:28
+msgid ":doc:`../managing_products/stock`"
+msgstr ":doc:`../managing_products/magazzino`"
+
+#: ../../ecommerce/getting_started/product_page.rst:29
+msgid ":doc:`../maximizing_revenue/cross_selling`"
+msgstr ":doc:`../maximizing_revenue/cross_selling`"
+
+#: ../../ecommerce/getting_started/product_page.rst:30
+msgid ":doc:`../maximizing_revenue/reviews`"
+msgstr ":doc:`../maximizing_revenue/recensioni`"
+
+#: ../../ecommerce/getting_started/product_page.rst:31
+msgid ":doc:`../maximizing_revenue/pricing`"
+msgstr ":doc:`../maximizing_revenue/prezzi`"
+
+#: ../../ecommerce/getting_started/product_page.rst:32
+msgid ":doc:`../../website/optimize/seo`"
+msgstr ":doc:`../../sito web/ottimizzazione/seo`"
+
+#: ../../ecommerce/managing_products.rst:3
+msgid "Manage my products"
+msgstr "Gestire i miei prodotti"
+
+#: ../../ecommerce/managing_products/multi_images.rst:3
+msgid "How to display several images per product"
+msgstr "Come visualizzare diverse immagini per ogni prodotto"
+
+#: ../../ecommerce/managing_products/multi_images.rst:5
+msgid ""
+"By default your product web page displays the main image of your product "
+"only. If you like to show your products under several angles, you can turn "
+"the image into a carrousel."
+msgstr ""
+"Per impostazione predefinita, il vostro prodotto pagina web viene "
+"visualizzata l'immagine principale del prodotto solo. Se si desidera "
+"visualizzare i vostri prodotti sotto diverse angolazioni, è possibile "
+"trasformare l'immagine in un carosello."
+
+#: ../../ecommerce/managing_products/multi_images.rst:11
+msgid ""
+"Check *Several images per product* in :menuselection:`Website Admin --> "
+"Configuration --> Settings`."
+msgstr ""
+"Di controllo *Diverse immagini per ogni prodotto* in :menuselection: Sito "
+"web Admin --> Configurazione --> Impostazioni`."
+
+#: ../../ecommerce/managing_products/multi_images.rst:13
+msgid ""
+"Open a product detail form and upload images from *Images* tab. Hit *Create*"
+" in Edit mode to get the upload wizard."
+msgstr ""
+"Aprire un dettaglio del prodotto modulo e caricare immagini *Immagini* tab. "
+"Hit *Creare* in modalità di Modifica per ottenere la procedura guidata."
+
+#: ../../ecommerce/managing_products/multi_images.rst:19
+msgid "Such extra image are common to all the product variants (if any)."
+msgstr ""
+"Extra immagine sono comuni a tutte le varianti di prodotto (se qualsiasi)."
+
+#: ../../ecommerce/managing_products/stock.rst:3
+msgid "How to show product availability"
+msgstr "Come mostra la disponibilità del prodotto"
+
+#: ../../ecommerce/managing_products/stock.rst:5
+msgid ""
+"The availability of your products can be shown on the website to reassure "
+"your customers."
+msgstr ""
+"La disponibilità dei prodotti possono essere visualizzate sul sito web per "
+"rassicurare i clienti."
+
+#: ../../ecommerce/managing_products/stock.rst:10
+msgid ""
+"To display this, open the *Sales* tab in the product detail form and select "
+"an option in *Availability*."
+msgstr ""
+"Per visualizzare questo, aprire il *Vendite* scheda di dettaglio del "
+"prodotto modulo e selezionare un'opzione nell' *Disponibilità*."
+
+#: ../../ecommerce/managing_products/stock.rst:16
+msgid ""
+"A custom warning message can be anything related to a stock out, delivery "
+"delay, etc."
+msgstr ""
+"Personalizzato messaggio di avviso può essere tutto ciò che è relativo a un "
+"piano di stock-out, ritardo di consegna, etc."
+
+#: ../../ecommerce/managing_products/stock.rst:22
+msgid "This tool does not require the Inventory app to be installed."
+msgstr ""
+"Questo strumento non richiede l'Inventario app, per essere installato."
+
+#: ../../ecommerce/managing_products/stock.rst:25
+msgid ""
+"If one item is no longer sellable, unpublish it from your website. If it "
+"comes to one particular product variant, deactivate the variant in the "
+"backend (see :doc:`../maximizing_revenue/pricing`)."
+msgstr ""
+"Se un articolo non è più vendibile, annullare la pubblicazione del tuo sito "
+"web. Se si tratta di una particolare variante di prodotto, disattivare la "
+"variante in backend (cfr.: doc:`../maximizing_revenue/prezzi`)."
+
+#: ../../ecommerce/managing_products/variants.rst:3
+msgid "How to manage product variants"
+msgstr "Come gestire le varianti di prodotto"
+
+#: ../../ecommerce/managing_products/variants.rst:5
+msgid ""
+"Product variants are used to offer variations of the same product to your "
+"customers on the products page. For example, the customer chooses a T-shirt "
+"and then selects its size and color.  In the example below, the customer "
+"chooses a phone, and then selects the memory; color and Wi-Fi band from the "
+"available options."
+msgstr ""
+"Varianti di prodotto vengono utilizzati per offrire varianti di uno stesso "
+"prodotto ai vostri clienti sui prodotti pagina. Per esempio, il cliente "
+"sceglie una T-shirt e seleziona quindi la sua dimensione e il colore. "
+"Nell'esempio riportato di seguito, il cliente sceglie un telefono, e quindi "
+"selezionare la memoria; il colore e la connessione Wi-Fi gratuita, band tra "
+"le opzioni disponibili."
+
+#: ../../ecommerce/managing_products/variants.rst:15
+msgid "How to create attributes & variants"
+msgstr "Come creare attributi e varianti"
+
+#: ../../ecommerce/managing_products/variants.rst:17
+msgid ""
+"Turn on *Products can have several attributes, defining variants (Example: "
+"size, color,...)* in :menuselection:`Sales --> Settings`."
+msgstr ""
+"Si accende *Prodotti possono avere diversi attributi, la definizione di "
+"varianti (ad Esempio: la dimensione, il colore,...)* in :menuselection:`di "
+"Vendita --> Impostazioni`."
+
+#: ../../ecommerce/managing_products/variants.rst:20
+msgid "Select a product from the Products list, go to the *Variants* tab."
+msgstr ""
+"Seleziona un prodotto della lista di Prodotti, visitare il *Varianti* tab."
+
+#: ../../ecommerce/managing_products/variants.rst:22
+msgid ""
+"Add as many attributes as you need from 3 different types: radio buttons, "
+"drop-down menu or color buttons. You get several variants as soon as there "
+"are 2 values for 1 attribute."
+msgstr ""
+"Aggiungi come molti attributi come avete bisogno di 3 tipi: pulsanti, menu a"
+" tendina o pulsanti di colore. È possibile ottenere diversi varianti non "
+"appena ci sono 2 valori di 1 attributo."
+
+#: ../../ecommerce/managing_products/variants.rst:30
+msgid "How to edit variants"
+msgstr "Come modificare le varianti"
+
+#: ../../ecommerce/managing_products/variants.rst:32
+msgid "See all the variants from the product template detail form."
+msgstr "Vedi tutte le varianti del prodotto modello di modulo di dettaglio."
+
+#: ../../ecommerce/managing_products/variants.rst:40
+msgid "You can edit following data:"
+msgstr "È possibile modificare i seguenti dati:"
+
+#: ../../ecommerce/managing_products/variants.rst:42
+msgid "Picture (will update in real time on the website),"
+msgstr "Immagine (aggiornamento in tempo reale sul sito),"
+
+#: ../../ecommerce/managing_products/variants.rst:43
+msgid "Barcode,"
+msgstr "Codice a barre,"
+
+#: ../../ecommerce/managing_products/variants.rst:44
+msgid "Internal Reference (SKU #),"
+msgstr "Riferimento interno (SKU #),"
+
+#: ../../ecommerce/managing_products/variants.rst:45
+msgid "Volume,"
+msgstr "Il Volume,"
+
+#: ../../ecommerce/managing_products/variants.rst:46
+msgid "Weight,"
+msgstr "Peso,"
+
+#: ../../ecommerce/managing_products/variants.rst:47
+msgid "Active (available in quotes & website)."
+msgstr "Attiva (disponibile in citazioni e sito web)."
+
+#: ../../ecommerce/managing_products/variants.rst:50
+msgid ""
+"Both the Barcode and the Internal Reference are variant-specific. You need "
+"to populate them once the variants generated."
+msgstr ""
+"Sia il codice a Barre e il Riferimento Interno sono di variante specifica. È"
+" necessario inserire una volta che le varianti generato."
+
+#: ../../ecommerce/managing_products/variants.rst:54
+msgid ""
+"See and edit all the variants from :menuselection:`Sales --> Sales --> "
+"Product Variants` as well. This might be quicker if you manage lots of "
+"variants."
+msgstr ""
+"Visualizzare e modificare tutte le varianti da :menuselection:`di Vendita "
+"--> Vendita --> Varianti di Prodotto` così. Questo potrebbe essere più "
+"veloce se si gestisce un sacco di varianti."
+
+#: ../../ecommerce/managing_products/variants.rst:58
+msgid "How to set specific prices per variant"
+msgstr "Come impostare i prezzi per la variante"
+
+#: ../../ecommerce/managing_products/variants.rst:60
+msgid ""
+"You can also set a specific public price per variant by clicking *Variant "
+"Prices* in the product detail form (action in top-left corner)."
+msgstr ""
+"È anche possibile impostare un prezzo al pubblico di variante cliccando "
+"Variante *Prezzi* il prodotto modulo di dettaglio (azione nell'angolo "
+"superiore sinistro)."
+
+#: ../../ecommerce/managing_products/variants.rst:66
+msgid ""
+"The Price Extra is added to the product price whenever the corresponding "
+"attribute value is selected."
+msgstr ""
+"Il Prezzo è aggiunto al prezzo del prodotto ogni volta che il corrispondente"
+" valore dell'attributo selezionato."
+
+#: ../../ecommerce/managing_products/variants.rst:76
+msgid ""
+"Pricelist formulas let you set advanced price computation methods for "
+"product variants. See :doc:`../maximizing_revenue/pricing`."
+msgstr ""
+"Listino formule consentono di impostare un prezzo superiore metodi di "
+"calcolo per le varianti di prodotto. Vedere "
+":doc:`../maximizing_revenue/prezzi`."
+
+#: ../../ecommerce/managing_products/variants.rst:80
+msgid "How to disable/archive variants"
+msgstr "Come disattivare/archivio varianti"
+
+#: ../../ecommerce/managing_products/variants.rst:82
+msgid ""
+"You can disable/archive specific variants so that they are no longer "
+"available in quotes & website (not existing in your stock, deprecated, "
+"etc.). Simply uncheck *Active* in their detail form."
+msgstr ""
+"È possibile disattivare/archivio varianti specifiche, in modo che essi non "
+"sono più disponibili nella quotazioni & sito web (non esistenti in "
+"magazzino, obsoleto, etc.). Basta deselezionare *Attivo* nel loro modulo di "
+"dettaglio."
+
+#: ../../ecommerce/managing_products/variants.rst:88
+msgid ""
+"To retrieve such archived items, hit *Archived* on searching the variants "
+"list. You can reactivate them the same way."
+msgstr ""
+"Per il recupero di tali elementi archiviati, hit *Archiviati* sulla ricerca "
+"di varianti elenco. È possibile riattivare il loro stesso modo."
+
+#: ../../ecommerce/maximizing_revenue.rst:3
+msgid "Maximize my revenue"
+msgstr "Massimizzare mie entrate"
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:3
+msgid "How to sell accessories and optional products (cross-selling)"
+msgstr "Come vendere accessori e prodotti opzionali (cross-selling)"
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:5
+msgid ""
+"You sell computers. Why not stimulating your customers to buy a top-notch "
+"screen or an extra-warranty? That's the goal of cross-selling "
+"functionalities:"
+msgstr ""
+"Si vendono computer. Perché non stimolare i clienti ad acquistare un top-"
+"notch schermo o di un extra di garanzia? Questo è l'obiettivo di cross-"
+"selling funzionalità:"
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:8
+msgid "Accessory products on checkout page,"
+msgstr "Prodotti accessori sulla pagina di checkout,"
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:9
+msgid ""
+"Optional products on a new *Add to Cart* screen (not installed by default)."
+msgstr ""
+"Prodotti opzionali su un nuovo *Aggiungi al Carrello* schermo (non è "
+"installato per impostazione predefinita)."
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:12
+msgid "Accessory products when checking out"
+msgstr "Prodotti accessori al momento del check out"
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:14
+msgid ""
+"Accessories (e.g. for computers: mouse, keyboard) show up when the customer "
+"reviews the cart before paying."
+msgstr ""
+"Accessori (ad es. per i computer: mouse, tastiera) quando il cliente esamina"
+" il carrello prima del pagamento."
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:20
+msgid "Select accessories in the *Sales* tab of the product detail page."
+msgstr ""
+"Selezionare accessori *Vendita* scheda della pagina di dettaglio del "
+"prodotto."
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:26
+msgid ""
+"There is an algorithm to figure out the best accessories to display in case "
+"several items are added to cart. If any item is the accessory of several "
+"products added to cart, it is most likely that it will be atop the list of "
+"suggested accessories."
+msgstr ""
+"C'è un algoritmo per capire i migliori accessori per la visualizzazione nel "
+"caso in cui alcuni elementi vengono aggiunti al carrello. Se un elemento è "
+"l'accessorio di diversi prodotti aggiunti al carrello, è più probabile che "
+"sarà in cima alla lista di accessori suggeriti."
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:31
+msgid "Optional products when adding to cart"
+msgstr "Prodotti opzionali quando si aggiunge al carrello"
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:33
+msgid ""
+"Optional products are directly related to the item added to cart (e.g. for "
+"computers: warranty, OS software, extra components). Whenever the main "
+"product is added to cart, such a new screen pops up as an extra step."
+msgstr ""
+"Prodotti opzionali sono direttamente correlati all'articolo aggiunto al "
+"carrello (ad esempio per i computer: garanzia, software OS, componenti "
+"aggiuntivi). Ogni volta che il principale prodotto viene aggiunto al "
+"carrello, ad una nuova schermata che appare come un passo in più."
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:40
+msgid "To publish optional products:"
+msgstr "Per pubblicare i prodotti opzionali:"
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:42
+msgid ""
+"Install *eCommerce Optional Products* addon in *Apps* menu. Remove the "
+"default filter to search on addons as well, otherwise only main apps show "
+"up."
+msgstr ""
+"Installare *e-commerce di Prodotti Opzionali* addon in *Applicazioni* menu. "
+"Rimuovere il filtro predefinito per la ricerca su addons così, altrimenti "
+"solo le principali applicazioni presentate."
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:48
+msgid "Select optional items from the *Sales* tab of the product detail form."
+msgstr ""
+"Selezionare gli elementi opzionali da *Vendite* scheda di dettaglio del "
+"prodotto forma."
+
+#: ../../ecommerce/maximizing_revenue/cross_selling.rst:54
+msgid ""
+"The quantity of optional items added to cart is the same than the main item."
+msgstr ""
+"La quantità di elementi opzionali aggiunto al carrello è lo stesso che "
+"l'elemento principale."
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:3
+msgid "How to adapt the prices to my website visitors"
+msgstr "Come adeguare i prezzi ai miei visitatori del sito"
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:5
+msgid "This section sheds some light on pricing features of eCommerce app:"
+msgstr ""
+"Questa sezione fa luce su prezzi caratteristiche di applicazione di "
+"eCommerce:"
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:7
+msgid "force a price by geo-localization,"
+msgstr "la forza di un prezzo da parte di geo-localizzazione,"
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:9
+msgid "let the customer choose the currency."
+msgstr "permettere al cliente di scegliere la valuta."
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:11
+msgid ""
+"As a pre-requisite, check out how to managing produt pricing: "
+":doc:`../../sales/products_prices/prices/pricing`)."
+msgstr ""
+"Come pre-requisito, check out gestione di produt prezzo: "
+":doc:`../../vendite/products_prices/prezzi/prezzi`)."
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:15
+msgid "Geo-IP to automatically apply the right price"
+msgstr "Geo-IP per applicare automaticamente il giusto prezzo"
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:17
+msgid ""
+"Assign country groups to your pricelists. That way, your visitors not yet "
+"logged in will get their own currency when landing on your website."
+msgstr ""
+"Assegnare gruppi di paesi per il tuo listini. In questo modo, i visitatori "
+"non ancora registrati avranno la loro propria moneta in fase di atterraggio "
+"sul tuo sito web."
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:20
+msgid "Once logged in, they get the pricelist matching their country."
+msgstr ""
+"Una volta effettuato l'accesso, si ottiene il listino corrispondenza del "
+"loro paese."
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:23
+msgid "Currency selector"
+msgstr "Valuta di selezione"
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:25
+msgid ""
+"In case you sell in several currencies, you can let your customers choose "
+"their own currency. Check *Selectable* to add the pricelist to the website "
+"drop-down menu."
+msgstr ""
+"Nel caso In cui si vendono in diverse valute, si può lasciare che i vostri "
+"clienti a scegliere la loro propria moneta. Di controllo *Selezionabile* per"
+" aggiungere il listino prezzi per il sito web dal menu a discesa."
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:34
+msgid ":doc:`../../sales/products_prices/prices/pricing`"
+msgstr ":doc:`../../vendite/products_prices/prezzi/prezzi`"
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:35
+msgid ":doc:`../../sales/products_prices/prices/currencies`"
+msgstr ":doc:`../../vendite/products_prices/prezzi/valute"
+
+#: ../../ecommerce/maximizing_revenue/pricing.rst:36
+msgid ":doc:`promo_code`"
+msgstr ":doc:`promo_code`"
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:3
+msgid "How to create & share promotional codes"
+msgstr "Come creare e condividere i codici promozionali"
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:5
+msgid ""
+"Want to boost your sales for Xmas? Share promocodes through your marketing "
+"campaigns and apply any kind of discounts."
+msgstr ""
+"Vuoi aumentare le tue vendite per Natale? Condividere il codice promozione "
+"attraverso campagne di marketing e di applicare qualsiasi tipo di sconti."
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:9
+#: ../../ecommerce/maximizing_revenue/reviews.rst:13
+msgid "Setup"
+msgstr "Installazione"
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:11
+msgid ""
+"Go to :menuselection:`Sales --> Settings` and choose *Advanced pricing based"
+" on formula* for *Sale Price*."
+msgstr ""
+"Vai a :menuselection:`di Vendita --> Impostazioni \" e scegliere *Advanced "
+"pricing basato sulla formula* per *il Prezzo di Vendita*."
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:14
+msgid ""
+"Go to :menuselection:`Website Admin --> Catalog --> Pricelists` and create a"
+" new pricelist with the discount rule (see :doc:`pricing`). Then enter a "
+"code."
+msgstr ""
+"Vai a :menuselection: Sito web Admin --> Catalogo - > Listini \"e creare un "
+"nuovo listino con lo sconto regola (cfr.: doc: \"tariffe\"). Quindi inserire"
+" un codice."
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:21
+msgid ""
+"Make the promocode field available on your *Shopping Cart* page (option in "
+"*Customize* menu). Add a product to cart to reach it."
+msgstr ""
+"Rendere il codice promo campo disponibile sul tuo *Carrello* pagina (opzione"
+" *Personalizza* menu). Aggiungere un prodotto al carrello per raggiungerlo."
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:27
+msgid ""
+"Once turned on you see a new section on the right side. On clicking *Apply* "
+"prices get automatically updated in the cart."
+msgstr ""
+"Una volta acceso si vede una nuova sezione sul lato destro. Cliccando su "
+"*Applica* prezzi vengano aggiornati automaticamente nel carrello."
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:33
+msgid ""
+"The promocode used by the customer is stored in the system so you can "
+"analyze the performance of your marketing campaigns."
+msgstr ""
+"Il codice promo utilizzato dal cliente viene memorizzato nel sistema in modo"
+" da poter analizzare le performance delle tue campagne di marketing."
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:39
+msgid "Show sales per pricelists..."
+msgstr "Mostra vendite per listini..."
+
+#: ../../ecommerce/maximizing_revenue/promo_code.rst:43
+msgid ":doc:`pricing`"
+msgstr ":doc:`prezzi`"
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:3
+msgid "How to enable comments & rating"
+msgstr "Come abilitare i commenti e valutazione"
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:5
+msgid ""
+"Publishing and monitoring customer experience will help you gain the trust "
+"of new customers and better engage with your community. In 2 clicks, allow "
+"your customer to share their feedback!"
+msgstr ""
+"La pubblicazione e monitoraggio della customer experience vi aiuterà a "
+"guadagnare la fiducia di nuovi clienti e coinvolgere meglio con la vostra "
+"comunità. In 2 click, per consentire al cliente di condividere le loro "
+"opinioni."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:15
+msgid ""
+"Activate comments & rating from the *Customize* menu of the product web "
+"page."
+msgstr ""
+"Attivare commenti e valutazione da *Personalizza* menu della pagina web del "
+"prodotto."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:21
+msgid ""
+"Visitors must log in to share their comments. Make sure they are able to do "
+"so (see Portal documentation)."
+msgstr ""
+"I visitatori devono accedere per condividere i loro commenti. Assicurarsi "
+"che essi sono in grado di farlo (vedi il Portale di documentazione)."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:25
+msgid "Review the posts in real time"
+msgstr "Rivedere i post in tempo reale"
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:27
+msgid ""
+"Whenever a post is published, the product manager and all the product "
+"followers get notified in their Inbox (*Discuss* menu)."
+msgstr ""
+"Ogni volta che un post viene pubblicato, il product manager e di tutto il "
+"prodotto seguaci ricevere una notifica via e-mail (*Discutere* menu)."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:34
+msgid ""
+"By default the user who created the product is automatically set as "
+"follower."
+msgstr ""
+"Per impostazione predefinita, l'utente che ha creato il prodotto è impostato"
+" automaticamente come seguace."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:36
+msgid ""
+"Click the product name to open the detail form and review the comment (in "
+"the product discussion thread)."
+msgstr ""
+"Fare clic sul nome del prodotto per aprire il modulo di dettaglio e di "
+"rivedere il commento (nel prodotto thread di discussione)."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:43
+msgid "Moderate & unpublish"
+msgstr "Moderato & unpublish"
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:45
+msgid ""
+"You can easily moderate by using the chatter, either in the product detail "
+"form or on the web page."
+msgstr ""
+"Si può facilmente moderata utilizzando le chiacchiere, sia nel dettaglio del"
+" prodotto forma o sulla pagina web."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:48
+msgid ""
+"To unpublish the post, open the product web page and click the *Published* "
+"button to turn it red (*Unpublished*)."
+msgstr ""
+"Per annullare la pubblicazione di post, aprire la pagina web del prodotto e "
+"fare clic *Pubblicato* pulsante per accendere di rosso (*Inedito*)."
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:56
+msgid "..tip::"
+msgstr "..suggerimento::"
+
+#: ../../ecommerce/maximizing_revenue/reviews.rst:55
+msgid ""
+"You can access the web page from the detail form by clicking the *Published*"
+" smart button (and vice versa)."
+msgstr ""
+"È possibile accedere alla pagina web di dettaglio modulo facendo clic "
+"*Pubblicato* tasto smart (e viceversa)."
+
+#: ../../ecommerce/maximizing_revenue/upselling.rst:3
+msgid "How to sell pricier product alternatives (upselling)"
+msgstr "Come vendere più costoso di prodotti alternativi (upselling)"
+
+#: ../../ecommerce/maximizing_revenue/upselling.rst:5
+msgid ""
+"In order to maximize your revenue, suggesting pricier alternative products "
+"is strongly advised for basic items. That way, your customer will spend more"
+" time browsing your catalog."
+msgstr ""
+"Al fine di massimizzare le entrate, suggerendo più costosi prodotti "
+"alternativi è fortemente consigliato per gli elementi di base. In questo "
+"modo, il cliente dovrà trascorrere più tempo a navigare il vostro catalogo."
+
+#: ../../ecommerce/maximizing_revenue/upselling.rst:12
+msgid "To do so:"
+msgstr "Per farlo:"
+
+#: ../../ecommerce/maximizing_revenue/upselling.rst:14
+msgid ""
+"Select such *Alternative Products* in the *Sales* tab of the product detail "
+"form. 3 alternatives are fine! Don't publish too many otherwise your "
+"customers will be confused."
+msgstr ""
+"Seleziona *Prodotti Alternativi* il *Vendite* scheda di dettaglio del "
+"prodotto forma. 3 alternative sono belle! Non pubblicare troppi altrimenti i"
+" vostri clienti saranno confusi."
+
+#: ../../ecommerce/maximizing_revenue/upselling.rst:20
+msgid ""
+"Turn on *Alternative Products* from the *Customize* menu of the product web "
+"page."
+msgstr ""
+"Si accende *Prodotti Alternativi* dal *Personalizza* menu della pagina web "
+"del prodotto."
+
+#: ../../ecommerce/overview.rst:3
+msgid "Overview"
+msgstr "Panoramica"
+
+#: ../../ecommerce/overview/introduction.rst:3
+msgid "Introduction to Odoo eCommerce"
+msgstr "Introduzione di Odoo e-commerce"
+
+#: ../../ecommerce/overview/introduction.rst:10
+msgid ""
+"The documentation will help you go live with your eCommerce website in no "
+"time. The topics follow the buying process:"
+msgstr ""
+"La documentazione vi aiuterà a andare a vivere con il tuo sito di eCommerce "
+"in nessun tempo. Gli argomenti di seguire il processo di acquisto:"
+
+#: ../../ecommerce/overview/introduction.rst:13
+msgid "Product Page"
+msgstr "Pagina Del Prodotto"
+
+#: ../../ecommerce/overview/introduction.rst:14
+msgid "Shop Page"
+msgstr "Negozio Pagina"
+
+#: ../../ecommerce/overview/introduction.rst:15
+msgid "Pricing"
+msgstr "Prezzi"
+
+#: ../../ecommerce/overview/introduction.rst:16
+msgid "Taxes"
+msgstr "Le tasse"
+
+#: ../../ecommerce/overview/introduction.rst:17
+msgid "Checkout process"
+msgstr "Il processo di Checkout"
+
+#: ../../ecommerce/overview/introduction.rst:18
+msgid "Upselling & cross-selling"
+msgstr "Upselling e cross-selling"
+
+#: ../../ecommerce/overview/introduction.rst:19
+msgid "Payment"
+msgstr "Pagamento"
+
+#: ../../ecommerce/overview/introduction.rst:20
+msgid "Shipping & Tracking"
+msgstr "Spedizione E Tracking"
+
+#: ../../ecommerce/overview/introduction.rst:24
+msgid ":doc:`../../website/publish/domain_name`"
+msgstr ":doc:`../../sito web/pubblica/nome_dominio`"
+
+#: ../../ecommerce/publish.rst:3
+msgid "Launch my website"
+msgstr "Lanciare il mio sito"
+
+#: ../../ecommerce/shopper_experience.rst:3
+msgid "Get paid"
+msgstr "Pagato"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:3
+msgid "How to get paid with Authorize.Net"
+msgstr "Come ricevere il pagamento con Authorize.Net"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:5
+msgid ""
+"Authorize.Net is one of the most popular eCommerce payment platforms in "
+"North America. Unlike most of the other payment acquirers compatible with "
+"Odoo, Authorize.Net can be used as `payment gateway "
+"<https://www.authorize.net/solutions/merchantsolutions/pricing/?p=gwo>`__ "
+"only. That way you can use the `payment processor or merchant "
+"<https://www.authorize.net/partners/resellerprogram/processorlist/>`__ that "
+"you like."
+msgstr ""
+"Authorize.Net è uno dei più popolari e-commerce piattaforme di pagamento in "
+"Nord America. A differenza della maggior parte degli altri strumenti di "
+"pagamento acquirenti compatibile con Odoo, Authorize.Net può essere "
+"utilizzato come \" gateway di pagamento "
+"<https://www.authorize.net/solutions/merchantsolutions/pricing/?p=gwo>`__ "
+"solo. Che modo si può utilizzare il processore di pagamento o il mercante "
+"<https://www.authorize.net/partners/resellerprogram/processorlist/>`__ che "
+"ti piace."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:12
+msgid "Create an Authorize.Net account"
+msgstr "Creare un Authorize.Net account"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:14
+msgid ""
+"Create an `Authorize.Net account <https://www.authorize.net>`__ by clicking "
+"'Get Started'."
+msgstr ""
+"Creare un `Authorize.Net account <https://www.authorize.net>`__, cliccando "
+"su 'iniziare'."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:16
+msgid ""
+"In the pricing page, press *Sign up now* if you want to use Authorize.net as"
+" both payment gateway and merchant. If you want to use your own merchant, "
+"press the related option."
+msgstr ""
+"Nella pagina dei prezzi, premere *iscriviti ora* se si desidera utilizzare "
+"Authorize.net sia come gateway di pagamento e il mercante. Se si desidera "
+"utilizzare il proprio mercante, premere l'opzione relativa."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:23
+msgid "Go through the registration steps."
+msgstr "Passare attraverso la procedura di iscrizione."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:24
+msgid ""
+"The account is set as a test account by default. You can use this test "
+"account to process a test transaction from Odoo."
+msgstr ""
+"L'account è impostato come un account di prova per impostazione predefinita."
+" È possibile utilizzare questo account di prova per elaborare una "
+"transazione di prova da Odoo."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:26
+msgid "Once ready, switch to **Production** mode."
+msgstr "Una volta pronto, passare per ** * * * Produzione** modalità."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:30
+#: ../../ecommerce/shopper_experience/paypal.rst:74
+msgid "Set up Odoo"
+msgstr "Impostare Odoo"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:31
+msgid ""
+"Activate Authorize.Net in Odoo from :menuselection:`Website or Sales or "
+"Accounting --> Settings --> Payment Acquirers`."
+msgstr ""
+"Attivare Authorize.Net in Odoo da :menuselection:`del Sito web o di Vendita "
+"o di Contabilità --> Impostazioni --> Pagamento Acquirenti`."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:33
+msgid "Enter both your **Login ID** and your **API Transaction Key**."
+msgstr "Inserite il vostro **ID di Accesso** e il **API Chiave Transazione**."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:39
+msgid ""
+"To get those credentials in Authorize.Net, you can rely on *API Login ID and"
+" Transaction Key* video of `Authorize.Net Video Tutorials "
+"<https://www.authorize.net/videos/>`__. Such videos give meaningful insights"
+" about how to set up your Authorize.Net account according to your needs."
+msgstr ""
+"Per ottenere le credenziali in Authorize.Net puoi contare su *API ID di "
+"Accesso e la Chiave Transazione* video di `Authorize.Net Video Tutorial "
+"<https://www.authorize.net/videos/>`__. Questi video danno intuizioni "
+"significative su come impostare il vostro Authorize.Net account in base alle"
+" vostre esigenze."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:47
+#: ../../ecommerce/shopper_experience/paypal.rst:102
+msgid "Go live"
+msgstr "Andare a vivere"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:48
+msgid ""
+"Your configuration is now ready! You can make Authorize.Net visible on your "
+"merchant interface and activate the **Production** mode."
+msgstr ""
+"La configurazione è ora pronto! Si può fare Authorize.Net visibile su il "
+"mercante di interfaccia e attivare il ** * * * Produzione** modalità."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:55
+msgid ""
+"Credentials provided by Authorize.net are different for both test and "
+"production mode. Don't forget to update them in Odoo when you turn on the "
+"production mode."
+msgstr ""
+"Credenziali fornite dall'Authorize.net sono diversi per i test e modalità di"
+" produzione. Non dimenticare di aggiornare Odoo quando si attiva la modalità"
+" di produzione."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:61
+msgid "Assess Authorize.Net as payment solution"
+msgstr "Valutare Authorize.Net come soluzione di pagamento"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:62
+msgid ""
+"You can test and assess Authorize.Net for free by creating a `developer "
+"account <https://developer.authorize.net>`__."
+msgstr ""
+"È possibile verificare e valutare Authorize.Net per la connessione con la "
+"creazione di un `account di sviluppatore "
+"<https://developer.authorize.net>`__."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:64
+msgid ""
+"Once the account created you receive sandbox credentials. Enter them in Odoo"
+" as explained here above and make sure you are still in *Test* mode."
+msgstr ""
+"Una volta che l'account creato viene visualizzato sandbox credenziali. "
+"Inserire nel Odoo come spiegato qui sopra e assicurarsi che siete ancora in "
+"*Test* modalità."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:68
+msgid ""
+"You can also log in to `Authorize.Net sandbox platform "
+"<https://sandbox.authorize.net/>`__ to configure your sandbox account."
+msgstr ""
+"È inoltre possibile accedere a `Authorize.Net sandbox piattaforma "
+"<https://sandbox.authorize.net/>`__ per configurare il tuo account sandbox."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:71
+msgid ""
+"To perform ficticious transactions you can use fake card numbers provided in"
+" the `Authorize.Net Testing Guide "
+"<https://developer.authorize.net/hello_world/testing_guide/>`__."
+msgstr ""
+"Per eseguire fittizio transazioni che si possono usare i falsi numeri di "
+"carta i \" Authorize.Net Test di Guida "
+"<https://developer.authorize.net/hello_world/testing_guide/>`__."
+
+#: ../../ecommerce/shopper_experience/authorize.rst:76
+#: ../../ecommerce/shopper_experience/paypal.rst:154
+msgid ":doc:`payment`"
+msgstr ":doc:`modalità di pagamento`"
+
+#: ../../ecommerce/shopper_experience/authorize.rst:77
+#: ../../ecommerce/shopper_experience/payment.rst:111
+#: ../../ecommerce/shopper_experience/paypal.rst:155
+msgid ":doc:`payment_acquirer`"
+msgstr ":doc:`payment_acquirer`"
+
+#: ../../ecommerce/shopper_experience/payment.rst:3
+msgid "How to get paid with payment acquirers"
+msgstr "Come ricevere il pagamento con il pagamento acquirenti"
+
+#: ../../ecommerce/shopper_experience/payment.rst:5
+msgid ""
+"Odoo embeds several payment methods to get paid on eCommerce, Sales and "
+"Invoicing apps."
+msgstr ""
+"Odoo incorpora diversi metodi di pagamento per ottenere pagato su "
+"e-commerce, la Vendita e la Fatturazione apps."
+
+#: ../../ecommerce/shopper_experience/payment.rst:10
+msgid "What are the payment methods available"
+msgstr "Quali sono i metodi di pagamento disponibili"
+
+#: ../../ecommerce/shopper_experience/payment.rst:13
+msgid "Wire transfer"
+msgstr "Bonifico bancario"
+
+#: ../../ecommerce/shopper_experience/payment.rst:15
+msgid ""
+"Wire Transfer is the default payment method available. The aim is providing "
+"your customers with your bank details so they can pay on their own via their"
+" bank. This is very easy to start with but slow and inefficient process-"
+"wise. Opt for online acquirers as soon as you can!"
+msgstr ""
+"Bonifico bancario è il metodo di pagamento predefinito disponibile. "
+"L'obiettivo è di offrire ai tuoi clienti i tuoi dati bancari in modo da "
+"poter pagare in proprio tramite la loro banca. Questo è molto facile per "
+"iniziare con ma lento e inefficiente processo-saggio. Optare per acquirenti "
+"online il più presto possibile!"
+
+#: ../../ecommerce/shopper_experience/payment.rst:21
+msgid "Payment acquirers"
+msgstr "Pagamento acquirenti"
+
+#: ../../ecommerce/shopper_experience/payment.rst:23
+msgid ""
+"Redirect your customers to payment platforms to collect money effortless and"
+" track the payment status (call-back). Odoo supports more and more platforms"
+" over time:"
+msgstr ""
+"Reindirizzare i vostri clienti a pagamento piattaforme per raccogliere i "
+"soldi senza sforzo e monitorare lo stato di pagamento (call-back). Odoo "
+"supporta più piattaforme nel corso del tempo:"
+
+#: ../../ecommerce/shopper_experience/payment.rst:27
+msgid "`Paypal <paypal.html>`__"
+msgstr "`Paypal <paypal.html>`__"
+
+#: ../../ecommerce/shopper_experience/payment.rst:28
+msgid "Ingenico"
+msgstr "Ingenico"
+
+#: ../../ecommerce/shopper_experience/payment.rst:29
+msgid "Authorize.net"
+msgstr "Authorize.net"
+
+#: ../../ecommerce/shopper_experience/payment.rst:30
+msgid "Adyen"
+msgstr "Adyen"
+
+#: ../../ecommerce/shopper_experience/payment.rst:31
+msgid "Buckaroo"
+msgstr "Buckaroo"
+
+#: ../../ecommerce/shopper_experience/payment.rst:32
+msgid "PayUmoney"
+msgstr "PayUmoney"
+
+#: ../../ecommerce/shopper_experience/payment.rst:33
+msgid "Sips"
+msgstr "Sorsi"
+
+#: ../../ecommerce/shopper_experience/payment.rst:34
+msgid "Stripe"
+msgstr "Striscia"
+
+#: ../../ecommerce/shopper_experience/payment.rst:38
+msgid "How to go live"
+msgstr "Come andare a vivere"
+
+#: ../../ecommerce/shopper_experience/payment.rst:40
+msgid ""
+"Once the payment method ready, make it visible in the payment interface and "
+"activate the **Production** mode."
+msgstr ""
+"Una volta che il metodo di pagamento a pronti, è visibile nell'interfaccia "
+"di pagamento e attivare il ** * * * Produzione** modalità."
+
+#: ../../ecommerce/shopper_experience/payment.rst:48
+msgid "How to let customers save and reuse credit cards"
+msgstr ""
+"Come consentire ai clienti di salvare e riutilizzare le carte di credito"
+
+#: ../../ecommerce/shopper_experience/payment.rst:49
+msgid ""
+"To ease the payment of returning customers, you can let them save and reuse "
+"a credit card if they want to. If so, a payment token will be saved in Odoo."
+" This option is available with Ingenico and Authorize.net."
+msgstr ""
+"Per facilitare il pagamento di clienti di ritorno, è possibile consentire "
+"loro di salvare e riutilizzare una carta di credito, se si desidera. Se è "
+"così, un pagamento token verrà salvato in Odoo. Questa opzione è disponibile"
+" con Ingenico e Authorize.net."
+
+#: ../../ecommerce/shopper_experience/payment.rst:54
+#: ../../ecommerce/shopper_experience/payment.rst:68
+msgid "You can turn this on from the acquirer configuration form."
+msgstr "È possibile attivarlo dall'acquirente nel modulo di configurazione."
+
+#: ../../ecommerce/shopper_experience/payment.rst:61
+msgid "How to debit credit cards to pay subscriptions"
+msgstr "Come di debito carte di credito per pagare abbonamenti"
+
+#: ../../ecommerce/shopper_experience/payment.rst:62
+msgid ""
+"`Odoo Subscription <https://www.odoo.com/page/subscriptions>`__ allows to "
+"bill services automatically on a recurring basis. Along with it, you can "
+"have an automatic debit of the customer's credit card."
+msgstr ""
+"`Odoo Sottoscrizione <https://www.odoo.com/page/subscriptions>`__ consente "
+"di fatturare i servizi automaticamente sulla base ricorrente. Con esso, si "
+"può avere un sistema automatico di debito della carta di credito del "
+"cliente."
+
+#: ../../ecommerce/shopper_experience/payment.rst:66
+msgid "This option is available with Ingenico and Authorize.net."
+msgstr "Questa opzione è disponibile con Ingenico e Authorize.net."
+
+#: ../../ecommerce/shopper_experience/payment.rst:73
+msgid ""
+"That way a payment token will be recorded when the customer goes for the "
+"subscription and an automatic debit will occur whenever an invoice is issued"
+" from the subscription."
+msgstr ""
+"Che modo un pagamento token verrà registrato quando il cliente va per la "
+"sottoscrizione e l'addebito automatico si verifica ogni volta che una "
+"fattura è emessa dalla sottoscrizione."
+
+#: ../../ecommerce/shopper_experience/payment.rst:79
+msgid "How to use other acquirers (advanced)"
+msgstr "Come utilizzare altri acquirenti (avanzato)"
+
+#: ../../ecommerce/shopper_experience/payment.rst:81
+msgid ""
+"Odoo can submit single payment requests and redirect to any payment "
+"acquirer. But there is no call-back, i.e. Odoo doesn't track the transaction"
+" status. So you will confirm orders manually once you get paid."
+msgstr ""
+"Odoo può presentare singole richieste di pagamento e reindirizzare a "
+"qualsiasi pagamento acquirente. Ma non c'è il call-back, cioè Odoo non "
+"rileva lo stato di transazione. Così si conferma ordini manualmente una "
+"volta che si è pagato."
+
+#: ../../ecommerce/shopper_experience/payment.rst:85
+msgid "How to:"
+msgstr "Come:"
+
+#: ../../ecommerce/shopper_experience/payment.rst:87
+msgid "Switch to developer mode."
+msgstr "Passare alla modalità sviluppatore."
+
+#: ../../ecommerce/shopper_experience/payment.rst:89
+msgid "Take the **Custom** payment method."
+msgstr "Prendere l' **I** metodo di pagamento."
+
+#: ../../ecommerce/shopper_experience/payment.rst:91
+msgid ""
+"Set up the payment form (S2S Form Template) as instructed by your payment "
+"acquirer. You can start from *default_acquirer_button* that you can "
+"duplicate."
+msgstr ""
+"Impostare il modulo di pagamento (S2S Modello di Modulo) come indicato dal "
+"vostro pagamento acquirente. Si può iniziare da *default_acquirer_button* "
+"che si possono duplicare."
+
+#: ../../ecommerce/shopper_experience/payment.rst:96
+msgid "Other configurations"
+msgstr "Altre configurazioni"
+
+#: ../../ecommerce/shopper_experience/payment.rst:98
+msgid ""
+"Odoo can also be used for more advanced payment processes like installment "
+"plans (e.g. `Paypal Installment Plans "
+"<https://developer.paypal.com/docs/classic/paypal-payments-"
+"standard/integration-guide/installment_buttons>`__)."
+msgstr ""
+"Odoo può essere utilizzato anche per i più avanzati processi di pagamento, "
+"come la rata di progetti (ad es. `Paypal Rata Piani "
+"<https://developer.paypal.com/docs/classic/paypal-payments-"
+"standard/integration-guide/installment_buttons>`__)."
+
+#: ../../ecommerce/shopper_experience/payment.rst:102
+msgid ""
+"Such a customization service is made on-demand by our technical experts "
+"based on your own requirements. A business advisor can reach you out for "
+"such matter. `Contact us. <https://www.odoo.com/page/contactus>`__"
+msgstr ""
+"Ad un servizio di personalizzazione viene effettuata su richiesta dai nostri"
+" esperti tecnici in base alle proprie esigenze. Un consulente di business in"
+" grado di raggiungere per tale materia. `In contatto con noi. "
+"<https://www.odoo.com/page/contactus>`__"
+
+#: ../../ecommerce/shopper_experience/payment.rst:109
+msgid ":doc:`paypal`"
+msgstr ":doc:`paypal`"
+
+#: ../../ecommerce/shopper_experience/payment.rst:110
+msgid ":doc:`wire_transfer`"
+msgstr ":doc:`wire_transfer`"
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:3
+msgid "How to manage orders paid with payment acquirers"
+msgstr "Come gestire gli ordini pagati con pagamento acquirenti"
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:5
+msgid ""
+"Odoo confirms orders automatically as soon as the payment is authorized by a"
+" payment acquirer. This triggers the delivery. If you invoice based on "
+"ordered quantities, you are also requested to invoice the order."
+msgstr ""
+"Odoo la conferma degli ordini automaticamente non appena il pagamento è "
+"autorizzato dal pagamento dell'acquirente. Questo innesca la consegna. Se si"
+" fattura sulla base della quantità ordinate, si richiede, inoltre, di "
+"fattura dell'ordine."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:12
+msgid "What are the payment status"
+msgstr "Quali sono lo stato di pagamento"
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:13
+msgid ""
+"At anytime, the salesman can check the transaction status from the order."
+msgstr ""
+"In qualsiasi momento, il venditore può verificare lo stato della transazione"
+" dall'ordine."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:18
+msgid "*Draft*: transaction under processing."
+msgstr "*Bozza*: transazione in fase di elaborazione."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:20
+msgid ""
+"*Pending*: the payment acquirer keeps the transaction on hold and you need "
+"to authorize it from the acquirer interface."
+msgstr ""
+"*In attesa*: il pagamento acquirente mantiene la transazione in attesa, "
+"quindi è necessario autorizzare dall'acquirente interfaccia."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:23
+msgid ""
+"*Authorized*: the payment has been authorized but not yet captured. In Odoo,"
+" the order is already confirmed. Once the delivery done, you can capture the"
+" amount from the acquirer interface (or from Odoo if you use Authorize.net)."
+msgstr ""
+"*Autorizzato*: il pagamento è stato autorizzato ma non ancora catturato. In "
+"Odoo, l'ordine è già confermato. Una volta che la consegna fatta, è in grado"
+" di catturare l'importo dell'acquirente interfaccia (o da Odoo se si "
+"utilizza Authorize.net)."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:28
+msgid ""
+"*Done*: the payment is authorized and captured. The order has been "
+"confirmed."
+msgstr ""
+"*Fatto*: il pagamento è stato autorizzato e catturato. L'ordine è stato "
+"confermato."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:30
+msgid ""
+"*Error*: an error has occured during the transaction. The customer needs to "
+"retry the payment. The order is still in draft."
+msgstr ""
+"*Errore*: si è verificato un errore durante la transazione. Il cliente deve "
+"ritentare il pagamento. L'ordine è ancora in bozza."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:34
+msgid ""
+"*Cancelled*: when the customer cancels the payment in the payment acquirer "
+"form. They are taken back to Odoo in order to modify the order."
+msgstr ""
+"*Annullato*: quando il cliente decida di annullare il pagamento il pagamento"
+" acquirente forma. Sono ripresi a Odoo per modificare l'ordine."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:37
+msgid ""
+"Specific messages are provided to your customers for every payment status, "
+"when they are redirected to Odoo after the transaction. To edit such "
+"messages, go to the *Messages* tab of the payment method."
+msgstr ""
+"Messaggi specifici forniti ai clienti per ogni pagamento stato, quando "
+"vengono reindirizzati a Odoo dopo la transazione. Per modificare i messaggi,"
+" vai a *Messaggi* scheda del metodo di pagamento."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:44
+msgid "Auto-validate invoices at order"
+msgstr "Auto-convalidare le fatture in ordine"
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:46
+msgid ""
+"When the order is confirmed you can also have an invoice automatically "
+"issued and paid. This fully-automated made for businesses that invoice "
+"orders straight on."
+msgstr ""
+"Quando l'ordine è confermato che si può anche avere un'automaticamente le "
+"fatture emesse e pagate. Questo completamente automatizzata fatto per le "
+"imprese che fattura ordini dritto."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:53
+msgid ""
+"If you choose this mode you are requested to select a payment journal in "
+"order to record payments in your books. This payment is automatically "
+"reconcilied with the invoice, marking it as paid. Select your **bank "
+"account** if you get paid immediately on your bank account. If you don't you"
+" can create a specific journal for the payment acquirer (type = Bank). That "
+"way, you can track online payments in an intermediary account of your books "
+"until you get paid into your bank account (see `How to register credit card "
+"payments "
+"<../../accounting/receivables/customer_payments/credit_cards.html>`__)."
+msgstr ""
+"Se si sceglie questa modalità verrà chiesto di selezionare un pagamento di "
+"diario per registrare i pagamenti dei tuoi libri. Questo pagamento è "
+"automaticamente riconciliati con la fattura, il contrassegno come pagamento."
+" Seleziona il tuo **conto corrente bancario** se si viene pagati "
+"immediatamente sul vostro conto in banca. Se non è possibile creare una "
+"rivista specifica per il pagamento acquirente (tipo = Banca). In questo "
+"modo, è possibile tenere traccia dei pagamenti online in un intermediario "
+"conto dei tuoi libri fino a quando si sono pagati nel suo conto in banca "
+"(vedi \" Come registrare i pagamenti con carta di credito "
+"<../../accounting/receivables/customer_payments/credit_cards.html>`__)."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:64
+msgid "Capture the payment after the delivery"
+msgstr "Cattura il pagamento dopo la consegna"
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:65
+msgid ""
+"With this mode, the order is confirmed but the amount is kept on hold. Once "
+"the delivery processed, you can capture the payment from Odoo. This mode is "
+"only available with Authorize.net."
+msgstr ""
+"Con questa modalità, l'ordine è confermato, ma l'importo viene messa in "
+"attesa. Una volta che la consegna trattati, è in grado di catturare il "
+"pagamento da Odoo. Questa modalità è disponibile solo con Authorize.net."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:72
+msgid ""
+"To capture the payment, open the transaction from the order. Then click "
+"*Capture Transaction*."
+msgstr ""
+"Per catturare il pagamento, aprire la transazione dall'ordine. Quindi fare "
+"clic *Acquisizione di Transazione*."
+
+#: ../../ecommerce/shopper_experience/payment_acquirer.rst:78
+msgid ""
+"With other payment acquirers, you can manage the capture in their own "
+"interfaces, not from Odoo."
+msgstr ""
+"Con altri strumenti di pagamento, acquirer, è possibile gestire "
+"l'acquisizione in loro interfacce, non da Odoo."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:3
+msgid "How to get paid with Paypal"
+msgstr "Come ricevere il pagamento con Paypal"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:5
+msgid ""
+"Paypal is the easiest online payment acquirer to configure. It is also the "
+"only one without any subscription fee. We definitely advise it to any "
+"starter."
+msgstr ""
+"Paypal è il modo più semplice di pagamento online acquirente per "
+"configurare. È anche l'unico senza alcun canone di abbonamento. Sicuramente "
+"lo consiglio a qualsiasi motorino di avviamento."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:11
+msgid "Set up your Paypal account"
+msgstr "Impostare il tuo account di Paypal"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:13
+msgid ""
+"Create a `Paypal Business Account <https://www.paypal.com>`__ or upgrade "
+"your account to *Business account* if you have a basic account."
+msgstr ""
+"Creare un Conto Business Paypal <https://www.paypal.com>`__ o aggiornare il "
+"tuo account *account Business* se si dispone di un conto di base."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:16
+msgid ""
+"Log in to `Paypal <https://www.paypal.com>`__ and open the settings of your "
+"**Profile**."
+msgstr ""
+"Accedere a \" Paypal <https://www.paypal.com>`__ e aprire le impostazioni "
+"del tuo **Profilo**."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:22
+msgid "Now enter the menu **My selling tools**."
+msgstr "Ora inserire il menu **i Miei strumenti di vendita**."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:27
+msgid "Let's start with the **Website Preferences**."
+msgstr "Cominciamo con il **Preferenze del Sito web**."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:29
+msgid ""
+"Turn on **Auto Return** and enter the **Return URL**: "
+"<odoo_instance_url>/shop/confirmation. Verify that this address uses the "
+"correct protocol (HTTP/HTTPS)."
+msgstr ""
+"Si accende *Ritorno Automatico** e inserire il **URL di Ritorno**: "
+"<odoo_instance_url>/shop/conferma. Verificare che l'indirizzo utilizza il "
+"protocollo corretto (HTTP/HTTPS)."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:36
+msgid ""
+"Turn on **Payment Data Transfer**. When saving, an **Identity Token** is "
+"generated. You will be later requested to enter it in Odoo."
+msgstr ""
+"Accendere **il Pagamento di Trasferimento Dati**. Durante il salvataggio di "
+"un **Token di Identità** viene generato. Vi sarà poi richiesto di entrare "
+"nel Odoo."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:43
+msgid ""
+"Then, get back to your profile to activate the **Instant Payment "
+"Notification (IPN)** in *My selling tools*."
+msgstr ""
+"Quindi, tornare al tuo profilo per attivare: **la Notifica Immediata del "
+"Pagamento (IPN)** *i Miei strumenti di vendita*."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:46
+msgid "Enter the **Notification URL**: <odoo_instance_url>/payment/paypal/ipn"
+msgstr ""
+"Inserisci il **URL Notifica**: <odoo_instance_url>/pagamento/paypal/ipn"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:51
+msgid ""
+"Now you must change the encoding format of the payment request sent by Odoo "
+"to Paypal. To do so, get back to *My selling tools* and click **PayPal "
+"button language encoding** in *More Selling Tools* section."
+msgstr ""
+"Ora è necessario modificare il formato di codifica della richiesta di "
+"pagamento inviata da Odoo a Paypal. Per farlo tornare a *Miei strumenti di "
+"vendita* e fare clic su **bottone di PayPal codifica della lingua** a "
+"*Ulteriori Strumenti di Vendita* la sezione."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:58
+msgid ""
+"Then, click *More Options* and set the two default encoding formats as "
+"**UTF-8**."
+msgstr ""
+"Quindi, fare clic *Più Opzioni* e impostare il default due formati di "
+"codifica come **UTF-8**."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:66
+msgid ""
+"If you want your customers to pay without creating a Paypal account, "
+"**Paypal Account Optional** needs to be turned on."
+msgstr ""
+"Se volete che i vostri clienti di pagare senza la creazione di un account "
+"Paypal, **Conto Paypal Opzionale** deve essere acceso."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:75
+msgid ""
+"Open Paypal setup form in :menuselection:`Website or Sales or Accounting -->"
+" Settings --> Payment Acquirers+`. Enter both your **Email ID** and your "
+"**Merchant ID** and check **Use IPN**."
+msgstr ""
+"Aprire Paypal installazione di forma :menuselection:`del Sito web o di "
+"Vendita o di Contabilità --> Impostazioni --> Pagamento Acquirer+`. Inserite"
+" il vostro **ID e-Mail** e il **Merchant ID** e di controllo **Utilizzare "
+"IPN**."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:82
+msgid ""
+"They are both provided in your Paypal profile, under :menuselection:`My "
+"business info`."
+msgstr ""
+"Essi sono disponibili in Paypal profilo, sotto l' :menuselection:`la Mia "
+"attività info`."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:85
+msgid ""
+"Enter your **Identity Token** in Odoo (from *Auto Return* option). To do so,"
+" open the *Settings* and activate the **Developer Mode**."
+msgstr ""
+"Inserisci il tuo **Token di Identità** in Odoo (da *a Ritorno Automatico* "
+"opzione). Per farlo, aprire il ** Impostazioni e attivare l' **la Modalità "
+"Sviluppatore**."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:91
+msgid ""
+"Then, go to :menuselection:`Settings --> Technical --> Parameters --> System"
+" Parameters` and create a parameter with following values:"
+msgstr ""
+"Poi, vai a :menuselection: Impostazioni --> Tecnica --> Parametri> Parametri"
+" di Sistema \" e creare un parametro con i seguenti valori:"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:94
+msgid "Key: payment_paypal.pdt_token"
+msgstr "Chiave: payment_paypal.pdt_token"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:95
+msgid "Value: your Paypal *Identity Token*"
+msgstr "Valore: Paypal *Token di Identità*"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:103
+msgid ""
+"Your configuration is now ready! You can make Paypal visible on your "
+"merchant interface and activate the **Production mode**."
+msgstr ""
+"La configurazione è ora pronto! Si può fare con Paypal visibile sul merchant"
+" interfaccia e attivare l' **modalità di Produzione**."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:112
+msgid "Transaction fees"
+msgstr "Le spese di transazione"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:114
+msgid ""
+"You can charge an extra to the customer to cover the transaction fees Paypal"
+" charges you. Once redirected to Paypal, your customer sees an extra applied"
+" to the order amount."
+msgstr ""
+"Si può pagare un extra per il cliente per coprire le spese di transazione "
+"Paypal spese. Una volta reindirizzato sul sito Paypal, il cliente vede un "
+"extra applicato all'importo dell'ordine."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:117
+msgid ""
+"To activate this, go to the *Configuration* tab of Paypal config form in "
+"Odoo and check *Add Extra Fees*. Default fees for US can be seen here below."
+msgstr ""
+"Per attivare questa operazione, passare alla Configurazione ** scheda di "
+"Paypal config forma in Odoo e di controllo *Aggiungere Spese Extra*. "
+"Onorario per NOI, può essere visto qui sotto."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:123
+msgid ""
+"To apply the right fees for your country, please refer to `Paypal Fees "
+"<https://www.paypal.com/webapps/mpp/paypal-fees>`__."
+msgstr ""
+"Per applicare il diritto di tasse per il vostro paese, si prega di fare "
+"riferimento alle \" Commissioni di Paypal "
+"<https://www.paypal.com/webapps/mpp/paypal-fees>`__."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:128
+msgid "Test the payment flow"
+msgstr "Prova il flusso di pagamento"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:130
+msgid ""
+"You can test the entire payment flow thanks to Paypal Sandbox accounts."
+msgstr ""
+"È possibile testare l'intero flusso di pagamento grazie a Paypal account "
+"Sandbox."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:132
+msgid ""
+"Log in to `Paypal Developer Site <https://developer.paypal.com>`__ with your"
+" Paypal credentials. This will create two sandbox accounts:"
+msgstr ""
+"Accedere a \" Paypal Sito dello Sviluppatore "
+"<https://developer.paypal.com>`__ con le vostre credenziali Paypal. Questo "
+"crea due account sandbox:"
+
+#: ../../ecommerce/shopper_experience/paypal.rst:136
+msgid ""
+"A business account (to use as merchant, e.g. "
+"pp.merch01-facilitator@example.com)."
+msgstr ""
+"Un conto business (per usare come commerciante, ad es. "
+"pp.merch01-facilitator@example.com)."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:137
+msgid ""
+"A default personal account (to use as shopper, e.g. "
+"pp.merch01-buyer@example.com)."
+msgstr ""
+"Un default account personale (da utilizzare come shopper, ad es. "
+"pp.merch01-buyer@example.com)."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:139
+msgid ""
+"Log in to `Paypal Sandbox <https://www.sandbox.paypal.com>`__ with the "
+"merchant account and follow the same configuration instructions."
+msgstr ""
+"Accedere a \" Paypal Sandbox <https://www.sandbox.paypal.com>`__ con la "
+"merchant account e seguire le istruzioni di configurazione."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:142
+msgid ""
+"Enter your sandbox credentials in Odoo and make sure Paypal is still set on "
+"*Test* mode. Also, make sure the confirmation mode of Paypal is not "
+"*Authorize & capture the amount, confirm the SO and auto-validate the "
+"invoice on acquirer confirmation*. Otherwise a confirmed invoice will be "
+"automatically generated when the transaction is completed."
+msgstr ""
+"Inserisci la tua sandbox di credenziali di Odoo e assicurarsi che Paypal è "
+"ancora impostato su *Test* modalità. Inoltre, assicurarsi che la modalità di"
+" conferma di Paypal non è *Autorizzare & catturare l'importo, confermare l',"
+" in MODO automatico e convalidare la fattura acquirente conferma*. "
+"Altrimenti confermata la fattura verrà generato automaticamente quando la "
+"transazione è completata."
+
+#: ../../ecommerce/shopper_experience/paypal.rst:150
+msgid "Run a test transaction from Odoo using the sandbox personal account."
+msgstr ""
+"Eseguire una transazione di prova da Odoo usare la sandbox account "
+"personale."
+
+#: ../../ecommerce/shopper_experience/portal.rst:3
+msgid "How customers can access their customer account"
+msgstr "Come i clienti possono accedere al proprio account cliente"
+
+#: ../../ecommerce/shopper_experience/portal.rst:5
+msgid ""
+"It has never been so easy for your customers to access their customer "
+"account. Forget endless signup forms, Odoo makes it as easy as ABC. They are"
+" suggested to sign up (name, email, password) when the order is placed, and "
+"not before. Indeed, nothing is more annoying than going through a signup "
+"process before buying something."
+msgstr ""
+"Non è mai stato così facile per i vostri clienti di accedere al proprio "
+"account cliente. Dimenticate infinite moduli d'iscrizione, Odoo è facile "
+"come ABC. Sono suggeriti per iscriversi (nome, email, password) quando viene"
+" effettuato l'ordine, e non prima. Infatti, niente è più fastidioso che "
+"passare attraverso un processo di registrazione prima di acquistare "
+"qualcosa."
+
+#: ../../ecommerce/shopper_experience/portal.rst:14
+msgid "Sign up"
+msgstr "Iscriviti"
+
+#: ../../ecommerce/shopper_experience/portal.rst:16
+msgid ""
+"The invitation to sign up shows up when the customer wants to visualize the "
+"order from order confirmation email."
+msgstr ""
+"L'invito a firmare si presenta quando il cliente vuole visualizzare l'ordine"
+" dall'email di conferma dell'ordine."
+
+#: ../../ecommerce/shopper_experience/portal.rst:23
+msgid "Customer account"
+msgstr "Account cliente"
+
+#: ../../ecommerce/shopper_experience/portal.rst:25
+msgid ""
+"Once logged in the customer will access the account by clicking *My Account*"
+" in the login dropdown menu."
+msgstr ""
+"Una volta effettuato l'accesso, il cliente dovrà accedere al proprio account"
+" cliccando *il Mio Account* login menu a discesa."
+
+#: ../../ecommerce/shopper_experience/portal.rst:31
+msgid ""
+"THere they find all their history. The main address (billing) can also be "
+"modified."
+msgstr ""
+"Ci sono in tutta la loro storia. Il principale indirizzo (fatturazione) "
+"possono anche essere modificati."
+
+#: ../../ecommerce/shopper_experience/portal.rst:37
+msgid ""
+"If the customer is set as a contact of a company in your address book, they "
+"will see all the documents whose the customer belongs to this company."
+msgstr ""
+"Se il cliente è impostato come un contatto di una società che il vostro "
+"libro di indirizzo, che verranno visualizzati tutti i documenti di cui il "
+"cliente appartiene a questa società."
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:3
+msgid "How to get paid with wire transfers"
+msgstr "Come ricevere il pagamento con bonifico"
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:5
+msgid ""
+"**Wire Transfer** is the default payment method available. The aim is "
+"providing your customers with your bank details so they can pay on their "
+"own. This is very easy to start with but slow and inefficient process-wise. "
+"Opt for payment acquirers as soon as you can!"
+msgstr ""
+"**Bonifico bancario** è il metodo di pagamento predefinito disponibile. "
+"L'obiettivo è di offrire ai tuoi clienti i tuoi dati bancari in modo da "
+"poter pagare in proprio. Questo è molto facile per iniziare con ma lento e "
+"inefficiente processo-saggio. Optare per il pagamento acquirenti più presto "
+"possibile!"
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:13
+msgid "How to provide customers with payment instructions"
+msgstr "Come per fornire ai clienti con le istruzioni per il pagamento"
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:14
+msgid ""
+"Put your payment instructions in the **Thanks Message** of your payment "
+"method."
+msgstr ""
+"Mettere le istruzioni di pagamento in **Grazie Messaggio** di tuo metodo di "
+"pagamento."
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:19
+msgid "They will appear to the customers when they place an order."
+msgstr "Essi appaiono ai clienti quando si effettua un ordine."
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:26
+msgid "How to manage an order once you get paid"
+msgstr "Come gestire un ordine una volta che hai pagato"
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:28
+msgid ""
+"Whenever a customer pays by wire transfer, the order stays in an "
+"intermediary stage **Quotation Sent** (i.e. unpaid order). When you get "
+"paid, you confirm the order manually to launch the delivery."
+msgstr ""
+"Ogni volta che un cliente paga con bonifico bancario, l'ordine rimane in una"
+" tappa intermedia **Preventivo Inviate** (cioè non pagati ordine). Quando "
+"vieni pagato, per confermare l'ordine manualmente per lanciare la consegna."
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:35
+msgid "How to create other manual payment methods"
+msgstr "Come creare manuali di altri metodi di pagamento"
+
+#: ../../ecommerce/shopper_experience/wire_transfer.rst:37
+msgid ""
+"If you manage a B2B business, you can create other manually-processed "
+"payment methods like paying by check. To do so, just rename *Wire Transfer* "
+"or duplicate it."
+msgstr ""
+"Se si gestisce un business B2B, è possibile creare altri manualmente-"
+"elaborati metodi di pagamento come pagamento tramite assegno. Per farlo, "
+"basta rinominare *bonifico bancario* o duplicare."
+
+#: ../../ecommerce/taxes.rst:3
+msgid "Collect taxes"
+msgstr "Raccogliere le tasse"

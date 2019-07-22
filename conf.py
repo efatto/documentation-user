@@ -305,6 +305,7 @@ LANGUAGES = {
     'en': 'English',
     'es': 'Spanish',
     'fr': 'French',
+    'it': 'Italian',
     'hr': 'Croatian',
     'nl': 'Dutch',
     'pt_BR': 'Portuguese (BR)',

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-26 15:12+0200\n"
+"POT-Creation-Date: 2019-07-22 08:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,7 @@ msgid "Bank & Cash"
 msgstr ""
 
 #: ../../accounting/bank/feeds.rst:3
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
 msgid "Bank Feeds"
 msgstr ""
 
@@ -918,11 +919,29 @@ msgid "If you are working in a multi-company environnement, you'll have to switc
 msgstr ""
 
 #: ../../accounting/bank/setup/create_bank_account.rst:0
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+#: ../../accounting/others/configuration/account_type.rst:0
+msgid "Type"
+msgstr ""
+
+#: ../../accounting/bank/setup/create_bank_account.rst:0
+msgid "Bank account type: Normal or IBAN. Inferred from the bank account number."
+msgstr ""
+
+#: ../../accounting/bank/setup/create_bank_account.rst:0
 msgid "ABA/Routing"
 msgstr ""
 
 #: ../../accounting/bank/setup/create_bank_account.rst:0
 msgid "American Bankers Association Routing Number"
+msgstr ""
+
+#: ../../accounting/bank/setup/create_bank_account.rst:0
+msgid "Account Holder Name"
+msgstr ""
+
+#: ../../accounting/bank/setup/create_bank_account.rst:0
+msgid "Account holder name, in case it is different than the name of the Account Holder"
 msgstr ""
 
 #: ../../accounting/bank/setup/create_bank_account.rst:49
@@ -1082,11 +1101,6 @@ msgid "Set active to false to hide the Journal without removing it."
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
-#: ../../accounting/others/configuration/account_type.rst:0
-msgid "Type"
-msgstr ""
-
-#: ../../accounting/bank/setup/manage_cash_register.rst:0
 msgid "Select 'Sale' for customer invoices journals."
 msgstr ""
 
@@ -1191,7 +1205,27 @@ msgid "The currency used to enter statement"
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "Debit Methods"
+msgid "Defines how the bank statements will be registered"
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "Creation of Bank Statements"
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "Defines when a new bank statement"
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "will be created when fetching new transactions"
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "from your bank account."
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "For Incoming Payments"
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
@@ -1209,7 +1243,7 @@ msgid "Batch Deposit: Encase several customer checks at once by generating a bat
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "Payment Methods"
+msgid "For Outgoing Payments"
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
@@ -1222,14 +1256,6 @@ msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
 msgid "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
-msgstr ""
-
-#: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "Group Invoice Lines"
-msgstr ""
-
-#: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "If this box is checked, the system will try to group the accounting lines when generating them from invoices."
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
@@ -1249,11 +1275,27 @@ msgid "Used to register a loss when the ending balance of a cash register differ
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "Show journal on dashboard"
+msgid "Group Invoice Lines"
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "Whether this journal should be displayed on the dashboard or not"
+msgid "If this box is checked, the system will try to group the accounting lines when generating them from invoices."
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "Post At Bank Reconciliation"
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "Whether or not the payments made in this journal should be generated in draft state, so that the related journal entries are only posted when performing bank reconciliation."
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "Alias Name for Vendor Bills"
+msgstr ""
+
+#: ../../accounting/bank/setup/manage_cash_register.rst:0
+msgid "It creates draft vendor bill by sending an email."
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
@@ -1288,22 +1330,6 @@ msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
 msgid "Sequence number of the next printed check."
-msgstr ""
-
-#: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "Creation of bank statement"
-msgstr ""
-
-#: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "This field is used for the online synchronization:"
-msgstr ""
-
-#: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "depending on the option selected, newly fetched transactions"
-msgstr ""
-
-#: ../../accounting/bank/setup/manage_cash_register.rst:0
-msgid "will be put inside previous statement or in a new one"
 msgstr ""
 
 #: ../../accounting/bank/setup/manage_cash_register.rst:0
@@ -1468,7 +1494,7 @@ msgid "You can manually close an asset when the depreciation is over. If the las
 msgstr ""
 
 #: ../../accounting/others/adviser/assets.rst:0
-msgid "Category"
+msgid "Asset Category"
 msgstr ""
 
 #: ../../accounting/others/adviser/assets.rst:0
@@ -1481,6 +1507,30 @@ msgstr ""
 
 #: ../../accounting/others/adviser/assets.rst:0
 msgid "Date of asset"
+msgstr ""
+
+#: ../../accounting/others/adviser/assets.rst:0
+msgid "Depreciation Dates"
+msgstr ""
+
+#: ../../accounting/others/adviser/assets.rst:0
+msgid "The way to compute the date of the first depreciation."
+msgstr ""
+
+#: ../../accounting/others/adviser/assets.rst:0
+msgid "* Based on last day of purchase period: The depreciation dates will be based on the last day of the purchase month or the purchase year (depending on the periodicity of the depreciations)."
+msgstr ""
+
+#: ../../accounting/others/adviser/assets.rst:0
+msgid "* Based on purchase date: The depreciation dates will be based on the purchase date."
+msgstr ""
+
+#: ../../accounting/others/adviser/assets.rst:0
+msgid "First Depreciation Date"
+msgstr ""
+
+#: ../../accounting/others/adviser/assets.rst:0
+msgid "Note that this date does not alter the computation of the first journal entry in case of prorata temporis assets. It simply changes its accounting date"
 msgstr ""
 
 #: ../../accounting/others/adviser/assets.rst:0
@@ -1536,7 +1586,7 @@ msgid "Prorata Temporis"
 msgstr ""
 
 #: ../../accounting/others/adviser/assets.rst:0
-msgid "Indicates that the first depreciation entry for this asset have to be done from the purchase date instead of the first January / Start date of fiscal year"
+msgid "Indicates that the first depreciation entry for this asset have to be done from the asset date (purchase date) instead of the first January / Start date of fiscal year"
 msgstr ""
 
 #: ../../accounting/others/adviser/assets.rst:0
@@ -5898,11 +5948,19 @@ msgid "Check: Pay bill by check and print it from Odoo."
 msgstr ""
 
 #: ../../accounting/payables/pay/check.rst:0
-msgid "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed."
+msgid "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed."
 msgstr ""
 
 #: ../../accounting/payables/pay/check.rst:0
 msgid "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed"
+msgstr ""
+
+#: ../../accounting/payables/pay/check.rst:0
+msgid "Show Partner Bank Account"
+msgstr ""
+
+#: ../../accounting/payables/pay/check.rst:0
+msgid "Technical field used to know whether the field `partner_bank_account_id` needs to be displayed or not in the payments form views"
 msgstr ""
 
 #: ../../accounting/payables/pay/check.rst:0

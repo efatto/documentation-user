@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015-TODAY, Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 08:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../expense.rst:5 ../../expense/expense.rst:5
+msgid "Expenses"
+msgstr "Spese"
+
+#: ../../expense/expense.rst:8
+msgid "How to set expense types"
+msgstr "Come impostare i tipi di spesa"
+
+#: ../../expense/expense.rst:9
+msgid ""
+"The first step to track expenses is to configure the expense types (managed "
+"as products in Odoo) that your company allows, from the *Configuration* "
+"menu. When a specific expense is reimbursed at a fixed price, set a cost on "
+"the product. Otherwise keep the cost at 0.0 and employees will report the "
+"real cost per expense."
+msgstr ""
+"Il primo passo per tenere traccia delle spese è quello di configurare i tipi"
+" di spesa (gestito come prodotti di Odoo) che la vostra società, dalla "
+"Configurazione ** menu. Quando una determinata spesa è rimborsata a prezzo "
+"fisso, impostare un costo sul prodotto. Altrimenti a mantenere il costo a "
+"0.0 e dipendenti di segnalare il reale costo per spese."
+
+#: ../../expense/expense.rst:17
+msgid "Here are some examples to configure:"
+msgstr "Ecco alcuni esempi di configurazione:"
+
+#: ../../expense/expense.rst:19
+msgid "Restaurant:"
+msgstr "Ristorante:"
+
+#: ../../expense/expense.rst:21 ../../expense/expense.rst:27
+msgid "Cost: 0.00 (the cost of the ticket will be recorded on every expense)"
+msgstr "Costo: 0.00 (il costo del biglietto sarà registrato su ogni spesa)"
+
+#: ../../expense/expense.rst:22
+msgid "Travel with Personal Car:"
+msgstr "Viaggiare con la propria Auto:"
+
+#: ../../expense/expense.rst:24
+msgid "Cost: 0.30 (the price per mile reimbursed by the company is fixed)"
+msgstr "Costo: 0.30 (il prezzo di miglio rimborsati dall'azienda è fissa)"
+
+#: ../../expense/expense.rst:25
+msgid "Hotel:"
+msgstr "Hotel:"
+
+#: ../../expense/expense.rst:29
+msgid "Others:"
+msgstr "Altri:"
+
+#: ../../expense/expense.rst:31
+msgid "Cost: 0.0"
+msgstr "Costo: 0.0"
+
+#: ../../expense/expense.rst:33
+msgid ""
+"Don’t forget to set an expense tax on each expense type (and an account if "
+"you use Odoo Accounting). It’s usually a good practice to use a tax that is "
+"configured with *Tax Included in Price* (see: "
+":doc:`../accounting/others/taxes/tax_included`). That way, employees report "
+"expenses with prices including taxes, which is usually the expected "
+"behaviour."
+msgstr ""
+"Non dimenticare di impostare una spesa di imposta su ogni tipo di spesa (e "
+"un conto se si utilizza Odoo di Contabilità). È buona norma utilizzare una "
+"tassa che è configurato con *Tasse Incluse nel Prezzo* (vedi: "
+":doc:`../contabile/altri/tasse/tax_included`). Che modo, i dipendenti "
+"rendicontare le spese con i prezzi includono tasse, che di solito è il "
+"comportamento atteso."
+
+#: ../../expense/expense.rst:41
+msgid ""
+"The *Sales* app allows you to specify unit of measures for your expense "
+"types (units, miles, nights, etc.). Go to :menuselection:`Sales --> "
+"Configuration --> Settings` and check *Some products may be sold/purchased "
+"in different units of measure (advanced)*."
+msgstr ""
+"La *Vendita* app consente di specificare le unità di misure per la spesa "
+"tipi di unità, miglia, pernottamenti, etc.). Vai a :menuselection:`di "
+"Vendita --> Configurazione --> Impostazioni \" e verificare *Alcuni prodotti"
+" possono essere venduti/acquistati in diverse unità di misura (avanzato)*."
+
+#: ../../expense/expense.rst:48
+msgid "How to record expenses"
+msgstr "Come registrare le spese"
+
+#: ../../expense/expense.rst:51
+msgid "Manually"
+msgstr "Manualmente"
+
+#: ../../expense/expense.rst:53
+msgid ""
+"As an employee (Employee in user access rights), you can record expenses "
+"from :menuselection:`My Expenses --> Expenses to Submit`."
+msgstr ""
+"Come un dipendente (Impiegato in diritti di accesso dell'utente), è "
+"possibile registrare le spese da :menuselection:`le Mie Spese --> Spese per "
+"Invio`."
+
+#: ../../expense/expense.rst:59
+msgid ""
+"Select the related product and enter either the total amount you paid (with "
+"Quantity = 1) or the unit price if Quantity is countable (e.g. number of "
+"hotel nights)."
+msgstr ""
+"Selezionare il prodotto e inserire l'importo totale pagato dall'utente (con "
+"Quantità = 1) o unità di prezzo se la Quantità non è numerabile (ad esempio:"
+" numero di notti in hotel)."
+
+#: ../../expense/expense.rst:62
+msgid "Enter the expense date."
+msgstr "Inserire la spesa data."
+
+#: ../../expense/expense.rst:63
+msgid ""
+"Choose if you paid the bill on your own (and expect to be reimbursed) or if "
+"the company paid directly (e.g. if you used a company's credit card)."
+msgstr ""
+"Scegliere se si è pagato il conto proprio (e si aspettano di essere "
+"rimborsato) o se la società ha pagato direttamente (ad esempio, se si è "
+"utilizzato una società di carta di credito)."
+
+#: ../../expense/expense.rst:65
+msgid ""
+"Set the bill reference, add some notes if requested and attach a photo/scan "
+"of the receipt from the discussion thread. That will help the manager and "
+"the accountant validate it."
+msgstr ""
+"Impostare il disegno di legge di riferimento, aggiungere alcune note se "
+"richiesta e allega una foto/scansione della ricevuta dal thread di "
+"discussione. Che aiuterà i manager e che il commercialista di convalida."
+
+#: ../../expense/expense.rst:73
+msgid "In one click from emails"
+msgstr "Un clic per e-mail"
+
+#: ../../expense/expense.rst:74
+msgid ""
+"Let your employees record their expenses from a simple email. Make a "
+"snapshot of the receipt and send it by email, or simply forward a bill!"
+msgstr ""
+"Lasciate che i vostri dipendenti registrare le loro spese, da una semplice "
+"e-mail. L'istantanea di ricezione e invio per e-mail, o semplicemente avanti"
+" un disegno di legge!"
+
+#: ../../expense/expense.rst:77
+msgid ""
+"The only thing to do is setting up an email alias in "
+":menuselection:`Expenses --> Configuration --> Settings` (e.g. *expenses* "
+"@mycompany.odoo.com). For security purposes, only authenticated employee "
+"emails (cfr. *Work Email* in employee detail form) are accepted."
+msgstr ""
+"L'unica cosa da fare è la creazione di un alias email a "
+":menuselection:`Spese --> Configurazione --> Impostazioni (ad esempio "
+"*spese* @mycompany.odoo.com). Per motivi di sicurezza, solo autenticata "
+"dipendente messaggi di posta elettronica (cfr. *E-Mail di lavoro* dipendente"
+" modulo di dettaglio) sono accettati."
+
+#: ../../expense/expense.rst:83
+msgid ""
+"The expense product is set automatically if the mail subject contains the "
+"product's internal reference between brackets (e.g. [Food]). Type the "
+"expense amount in the mail subject to set it on the expense too."
+msgstr ""
+"La spesa è impostato automaticamente se la mail contiene il prodotto interno"
+" riferimento tra parentesi quadre (ad esempio, [Cibo]). Digitare l'importo "
+"della spesa in oggetto di posta elettronica per attivare la spesa di troppo."
+
+#: ../../expense/expense.rst:88
+msgid "How to submit expenses to managers"
+msgstr "Come inviare spese per i gestori"
+
+#: ../../expense/expense.rst:90
+msgid ""
+"When you are ready to submit your expenses to your manager (e.g. at the end "
+"of a business trip, or once a month), go to the menu :menuselection:`My "
+"Expenses --> Expenses to Submit`. Select all expenses from the list view and"
+" click on :menuselection:`Action > Submit to Manager`. Save the newly "
+"created expense report (i.e. set of expenses), and wait for your manager to "
+"approve it."
+msgstr ""
+"Quando si è pronti per inviare le vostre spese per il gestore (ad esempio "
+"alla fine di un viaggio d'affari, o una volta al mese), vai al menu "
+":menuselection:`le Mie Spese --> Spese per Invio`. Selezionare tutte le "
+"spese dall'elenco e fare clic su :menuselection: Azione > Inoltra al "
+"Gestore`. Salvare il creato di recente, report spese (cioè l'insieme delle "
+"spese), e aspettare per il vostro manager per la sua approvazione."
+
+#: ../../expense/expense.rst:100
+msgid ""
+"You can also submit expenses one by one from the *Submit to Manager* button "
+"on the form view of an expense."
+msgstr ""
+"È anche possibile inviare spese dall' *Presentare al Gestore* pulsante sul "
+"modulo di vista della spesa."
+
+#: ../../expense/expense.rst:103
+msgid ""
+"All your submitted expense reports can be found in :menuselection:`Expenses "
+"--> My Expenses --> Expense Reports`."
+msgstr ""
+"Tutti i tuoi presentate le relazioni di spesa possono essere trovate in "
+":menuselection:`Spese --> le Mie Spese --> Rapporti di Spesa`."
+
+#: ../../expense/expense.rst:108
+msgid "How to approve expenses"
+msgstr "Come approvare le spese"
+
+#: ../../expense/expense.rst:110
+msgid ""
+"HR and team managers get an overview of all expense reports to validate from"
+" the top menu :menuselection:`To Approve --> Expense Reports to Approve`. "
+"Such users must have at least *Officers* access rights for *Expenses*."
+msgstr ""
+"HR e team manager di ottenere una panoramica di tutti i rapporti di spesa "
+"per la convalida dal menu in alto :menuselection: Per Approvare --> Rapporti"
+" di Spesa per Approvazione\". Tali utenti devono avere almeno: * * "
+"Ufficiali* diritti di accesso *Spese*."
+
+#: ../../expense/expense.rst:117
+msgid ""
+"They can review expense reports, approve or reject them, as well as "
+"providing feedback thanks to the integrated communication tool."
+msgstr ""
+"Sono in grado di verificare i rapporti di spesa, approvare o rifiutare di "
+"loro, oltre a fornire un feedback, grazie per la comunicazione integrata "
+"strumento."
+
+#: ../../expense/expense.rst:123
+msgid ""
+"As a team manager you can easily find the expense reports of your team "
+"members. You need to be set as manager in the detail form of those "
+"employees."
+msgstr ""
+"Come team manager, è possibile trovare facilmente i rendiconti delle spese "
+"dei membri del team. È necessario impostare come manager nel modulo di "
+"dettaglio di tali lavoratori."
+
+#: ../../expense/expense.rst:131
+msgid "How to post expenses in accounting"
+msgstr "Come postare le spese in contabilità"
+
+#: ../../expense/expense.rst:133
+msgid ""
+"Once expense reports approved by managers, the accounting department goes to"
+" :menuselection:`Expenses --> Accountant --> Expense Reports To Post` to "
+"check accounts, products and taxes. They can click *Post Journal Entries* to"
+" post related journal entries into your books. To do so, the user must have "
+"following access rights:"
+msgstr ""
+"Una volta che i rapporti di spesa approvato, da parte di dirigenti, "
+"l'amministrazione va a :menuselection:`Spese --> Commercialista --> Rapporti"
+" di Spesa Per il Post \" per verificare i conti, i prodotti e le tasse. Si "
+"può fare clic *Giornale* di post relativi le voci di diario in libri. Per "
+"fare ciò, l'utente deve disporre dei seguenti diritti di accesso:"
+
+#: ../../expense/expense.rst:139
+msgid "Accounting: Accountant or Adviser"
+msgstr "Contabile: il Ragioniere o Consulente"
+
+#: ../../expense/expense.rst:140
+msgid "Expenses: Manager"
+msgstr "Spese Di Gestione"
+
+#: ../../expense/expense.rst:143
+msgid ""
+"To post an expense, a *Home Address* must be set on the employee. If you get"
+" a related blocking message when posting, click the employee, go to "
+"*Personal Information* tab and select/create the contact of your employee in"
+" the address book. A contact has been automatically created if this person "
+"is using Odoo."
+msgstr ""
+"Postare una spesa, un *Indirizzo* deve essere impostato sul dipendente. Se "
+"si ottiene un relativo messaggio di blocco durante la registrazione, fare "
+"clic sul dipendente, vai a *Informazioni Personali* scheda e selezionare "
+"crea il contatto dei vostri dipendenti in rubrica. Un contatto è stato "
+"creato automaticamente se questa persona sta usando Odoo."
+
+#: ../../expense/expense.rst:150
+msgid "How to reimburse employees"
+msgstr "Come rimborsare i dipendenti"
+
+#: ../../expense/expense.rst:152
+msgid ""
+"You can now see all the expense reports to reimburse in "
+":menuselection:`Expenses --> Accountant --> Expense Reports To Pay`. To "
+"record the payment or pay by check, click *Register a Payment*."
+msgstr ""
+"Ora è possibile vedere tutti i report delle spese di rimborso in "
+":menuselection:`Spese --> Commercialista --> Rapporti di Spesa Per "
+"Pagamento\". Per registrare il pagamento o pagamento di controllo, fare clic"
+" su Registrazione di un Pagamento*."
+
+#: ../../expense/expense.rst:156
+msgid "See how you can easily manage the payment process in Odoo:"
+msgstr "Vedere come si può facilmente gestire il processo di pagamento Odoo:"
+
+#: ../../expense/expense.rst:158
+msgid ":doc:`../accounting/payables/pay/check`"
+msgstr ":doc:`../contabile/debiti/pagare/check`"
+
+#: ../../expense/expense.rst:159
+msgid ":doc:`../accounting/payables/pay/sepa`"
+msgstr ":doc:`../contabile/debiti/pagare/sepa`"
+
+#: ../../expense/expense.rst:163
+msgid "How to reinvoice expenses to your customers"
+msgstr "Come reinvoice spese per i tuoi clienti"
+
+#: ../../expense/expense.rst:165
+msgid ""
+"If you track expenses on customer projects, you can charge them back to your"
+" customers automatically."
+msgstr ""
+"Se si tiene traccia di spese sui progetti dei clienti, si può ricaricare per"
+" i vostri clienti automaticamente."
+
+#: ../../expense/expense.rst:169
+msgid "Setup"
+msgstr "Installazione"
+
+#: ../../expense/expense.rst:171
+msgid "Install *Sales* app if not yet done."
+msgstr "Installare *Vendite* app se non ancora fatto."
+
+#: ../../expense/expense.rst:172
+msgid ""
+"Go to :menuselection:`Accounting --> Configuration --> Settings` and install"
+" Analytic Accounting* (in Recommended Features)."
+msgstr ""
+"Vai a :menuselection: \"Accounting --> Configurazione --> Impostazioni e "
+"installare Contabilità Analitica* (in Raccomandata Caratteristiche)."
+
+#: ../../expense/expense.rst:175
+msgid ""
+"Go to :menuselection:`Sales --> Sales --> Products` and set the invoicing "
+"method on all your Expense types:"
+msgstr ""
+"Vai a :menuselection:`di Vendita --> Vendita --> Prodotti e impostare il "
+"metodo di fatturazione su tutti i tipi di Spesa:"
+
+#: ../../expense/expense.rst:178
+msgid "At cost: will invoice expenses at their real cost."
+msgstr "A pagamento: fattura spese al loro costo reale."
+
+#: ../../expense/expense.rst:179
+msgid ""
+"At sales price: will invoice based on a fixed sales price defined in the "
+"product form."
+msgstr ""
+"Al prezzo di vendita: fattura basata su un fisso prezzo di vendita definiti "
+"nella scheda prodotto."
+
+#: ../../expense/expense.rst:186
+msgid "Create an order"
+msgstr "Creare un ordine"
+
+#: ../../expense/expense.rst:187
+msgid ""
+"As a salesman, create and confirm a Sales Order for the services delivered "
+"to your customer. Don’t put any expense in the order. They will be added "
+"automatically once posted by the accountant."
+msgstr ""
+"Come un venditore, creare e confermare un Ordine di Vendita per i servizi "
+"forniti al cliente. Non mettere qualsiasi tipo di spesa, in ordine. Verranno"
+" aggiunti automaticamente una volta inviato dal commercialista."
+
+#: ../../expense/expense.rst:191
+msgid ""
+"Link this order to an analytic account dedicated to the customer project. "
+"You can create it on the fly."
+msgstr ""
+"Link a questa per un conto analitico dedicato al progetto del cliente. È "
+"possibile creare al volo."
+
+#: ../../expense/expense.rst:198
+msgid ""
+"If you track *Timesheets* on customer projects, Odoo can create an analytic "
+"account automatically once the order confirmed. It's useful if your "
+"employees must record timesheets on customer-specific projects. To do so, "
+"open your order product (service item) and make sure *Track Service* is set "
+"on *Timesheets on project*."
+msgstr ""
+"Se si traccia *Classifica* sui progetti dei clienti, Odoo possibile creare "
+"un conto analitico automaticamente una volta che l'ordine confermato. È "
+"utile se i vostri dipendenti devono registrare le schede attività sul "
+"cliente-specifici progetti. Per farlo, apri il tuo ordine prodotto (servizio"
+" voce) e accertarsi che *Track* è impostata su on *Schede attività del "
+"progetto*."
+
+#: ../../expense/expense.rst:205
+msgid "Submit, validate and post expenses"
+msgstr "Presentare, convalidare e spese postali"
+
+#: ../../expense/expense.rst:206
+msgid ""
+"As a manager, make sure the analytic account is set on every expense line on"
+" approving expenses reports. Click the line to add one if missing. Employees"
+" are already able to set one when submitting."
+msgstr ""
+"Come manager, assicurarsi che l'analitica account è impostato su ogni spesa "
+"sull'approvazione delle spese di report. Fare clic sulla riga per aggiungere"
+" una se mancanti. I dipendenti sono già in grado di impostare un momento "
+"della presentazione."
+
+#: ../../expense/expense.rst:213
+msgid "As an accountant, post journal entries."
+msgstr "Come un ragioniere, un giornale."
+
+#: ../../expense/expense.rst:216
+msgid "Invoice expenses"
+msgstr "Fattura spese"
+
+#: ../../expense/expense.rst:217
+msgid ""
+"Now you can invoice the order.It shows up in :menuselection:`Sales --> "
+"Invoicing --> Sales to Invoice`. The expenses have been added automatically "
+"in the order lines. Such items show up in blue (i.e. to invoice)."
+msgstr ""
+"Ora è possibile fattura dell'ordine.Essa mostra in :menuselection:`di "
+"Vendita --> Fatturazione --> Vendite di Fattura\". Le spese sono state "
+"aggiunte automaticamente le righe d'ordine. Tali elementi visualizzati in "
+"blu (cioè a fattura)."

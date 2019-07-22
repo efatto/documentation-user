@@ -1,0 +1,701 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015-TODAY, Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-22 08:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../db_management/db_online.rst:8
+msgid "Online Database management"
+msgstr "Online gestione di Database"
+
+#: ../../db_management/db_online.rst:13
+msgid "Duplicating a database"
+msgstr "La duplicazione di un database"
+
+#: ../../db_management/db_online.rst:15
+msgid ""
+"Database duplication, renaming, custom DNS, etc. is not available to free "
+"customers of our Online platform."
+msgstr ""
+"Database duplicazione, la ridenominazione, DNS personalizzati, etc. non è a "
+"disposizione gratuita dei clienti della nostra piattaforma Online."
+
+#: ../../db_management/db_online.rst:18
+msgid ""
+"Access the `database management page <https://www.odoo.com/my/databases>`__ "
+"(you will have to sign in). Next, make sure you are connected as the "
+"administrator of the database you want to duplicate. After that, click on "
+"the **Manage Your Databases** button."
+msgstr ""
+"Accedere alla pagina gestione database "
+"<https://www.odoo.com/my/databases>`__ (si dovrà accedere). Quindi, "
+"assicurarsi che si è connessi come amministratore del database che si "
+"desidera duplicare. Dopo di che, fare clic sul **Gestione Database** "
+"pulsante."
+
+#: ../../db_management/db_online.rst:26
+msgid ""
+"In the line of the database you want to duplicate, you will have a few "
+"buttons. To duplicate your database, just click **Duplicate**. You will have"
+" to give a name to your duplicate, then click **Duplicate Database**."
+msgstr ""
+"In linea del database che si desidera duplicare, si avrà un paio di "
+"pulsanti. Per duplicare il database, è sufficiente fare clic **Duplica**. Si"
+" dovrà dare un nome per la copia, quindi fare clic su **Duplicate in un "
+"Database**."
+
+#: ../../db_management/db_online.rst:36
+msgid "A duplicated database has the same behaviour as a real one:"
+msgstr "Un duplicato di database ha lo stesso comportamento come una vera:"
+
+#: ../../db_management/db_online.rst:38
+msgid "Emails are sent"
+msgstr "I messaggi vengono inviati"
+
+#: ../../db_management/db_online.rst:40
+msgid "Payments are processed (in the e-commerce, for example)"
+msgstr "I pagamenti vengono processati (e-commerce, per esempio)"
+
+#: ../../db_management/db_online.rst:42
+msgid "Delivery orders (shipping providers) are sent"
+msgstr "Gli ordini di consegna (spedizione provider) vengono inviati"
+
+#: ../../db_management/db_online.rst:44
+msgid "Etc."
+msgstr "Ecc."
+
+#: ../../db_management/db_online.rst:46
+msgid ""
+"It is **strongly** advised to test behaviour using sample customers/products"
+" (with a `disposable e-mail <http://www.mailinator.com>`__ address, for "
+"example)"
+msgstr ""
+"È **fortemente** consiglia di testare il comportamento del campione di "
+"clienti/prodotti (con un `usa e getta e-mail <http://www.mailinator.com>`__ "
+"indirizzo, per esempio)"
+
+#: ../../db_management/db_online.rst:50
+msgid ""
+"After a few seconds, you will be logged in your duplicated database. Notice "
+"that the url uses the name you chose for your duplicated database."
+msgstr ""
+"Dopo alcuni secondi, sarai registrato nel vostro duplicato database. Si noti"
+" che l'url viene utilizzato il nome che avete scelto per il vostro duplicato"
+" database."
+
+#: ../../db_management/db_online.rst:54
+msgid "Duplicate databases expire automatically after 15 days."
+msgstr "Duplicare il database scadono automaticamente dopo 15 giorni."
+
+#: ../../db_management/db_premise.rst:7
+msgid "On-premise Database management"
+msgstr "On-premise di gestione di Database"
+
+#: ../../db_management/db_premise.rst:10
+msgid "Register a database"
+msgstr "Registrazione di un database"
+
+#: ../../db_management/db_premise.rst:12
+msgid ""
+"To register your database, you just need to enter your Subscription Code in "
+"the banner in the App Switcher. Make sure you do not add extra spaces before"
+" or after your subscription code. If the registration is successful, it will"
+" turn green and will provide you with the Expiration Date of your freshly-"
+"registered database. You can check this Epiration Date in the About menu "
+"(Odoo 9) or in the Settings Dashboard (Odoo 10)."
+msgstr ""
+"Per registrare il tuo database, è solo bisogno di inserire il tuo Codice "
+"Abbonamento nel banner in App Switcher. Assicurati di non aggiungere spazi "
+"prima o dopo il codice del tuo abbonamento. Se la registrazione è avvenuta "
+"con successo, essa diventerà di colore verde e vi forniremo con la Data di "
+"Scadenza della tua appena registrato database. È possibile controllare "
+"questo Epiration Data nel menu informazioni (Odoo 9) o le Impostazioni del "
+"pannello di controllo (Odoo 10)."
+
+#: ../../db_management/db_premise.rst:20
+msgid "Registration Error Message"
+msgstr "Registrazione Messaggio Di Errore"
+
+#: ../../db_management/db_premise.rst:22
+msgid ""
+"If you are unable to register your database, you will likely encounter this "
+"message:"
+msgstr ""
+"Se si è in grado di registrare il database, è probabile che incontrerete "
+"questo messaggio:"
+
+#: ../../db_management/db_premise.rst:31 ../../db_management/db_premise.rst:97
+#: ../../db_management/db_premise.rst:130
+msgid "Solutions"
+msgstr "Soluzioni"
+
+#: ../../db_management/db_premise.rst:33
+msgid "Do you have a valid Enterprise subscription?"
+msgstr "Non si dispone di una valida sottoscrizione Enterprise?"
+
+#: ../../db_management/db_premise.rst:35
+msgid ""
+"Check if your subscription details get the tag \"In Progress\" on your `Odoo"
+" Account <https://accounts.odoo.com/my/subscription>`__ or with your Account"
+" Manager"
+msgstr ""
+"Controllare se i dettagli della sottoscrizione tag \"In Progress\" sul tuo "
+"\" Odoo Account <https://accounts.odoo.com/my/subscription>`__ o con il tuo "
+"Account Manager"
+
+#: ../../db_management/db_premise.rst:39
+msgid "Have you already linked a database with your subscription reference?"
+msgstr "Hai già collegato un database con l'abbonamento di riferimento?"
+
+#: ../../db_management/db_premise.rst:41
+msgid ""
+"You can link only one database per subscription. (Need a test or a "
+"development database? `Find a partner <https://www.odoo.com/partners>`__)"
+msgstr ""
+"È possibile collegare un solo database per abbonamento. (Hai bisogno di un "
+"test o di un database di sviluppo? `Trovare un partner "
+"<https://www.odoo.com/partners>`__)"
+
+#: ../../db_management/db_premise.rst:45
+msgid ""
+"You can unlink the old database yourself on your `Odoo Contract "
+"<https://accounts.odoo.com/my/subscription>`__ with the button \"Unlink "
+"database\""
+msgstr ""
+"È possibile scollegare il vecchio database voi stessi il vostro `Odoo "
+"Contratto <https://accounts.odoo.com/my/subscription>`__ con il pulsante "
+"\"Scollegare il database\""
+
+#: ../../db_management/db_premise.rst:52
+msgid ""
+"A confirmation message will appear; make sure this is the correct database "
+"as it will be deactivated shortly:"
+msgstr ""
+"Un messaggio di conferma apparirà; assicurarsi che questo è il database "
+"corretto come verrà disattivata poco:"
+
+#: ../../db_management/db_premise.rst:59
+msgid "Do you have the updated version of Odoo 9?"
+msgstr "Hai la versione aggiornata di Odoo 9?"
+
+#: ../../db_management/db_premise.rst:61
+#: ../../db_management/db_premise.rst:190
+msgid ""
+"From July 2016 onward, Odoo 9 now automatically change the uuid of a "
+"duplicated database; a manual operation is no longer required."
+msgstr ""
+"Da luglio 2016 in poi, Odoo 9 ora di cambiare automaticamente l'uuid di un "
+"duplicato del database; un manuale di operazione non è più necessaria."
+
+#: ../../db_management/db_premise.rst:64
+msgid ""
+"If it's not the case, you may have multiple databases sharing the same UUID."
+" Please check on your `Odoo Contract "
+"<https://accounts.odoo.com/my/subscription>`__, a short message will appear "
+"specifying which database is problematic:"
+msgstr ""
+"Se non è il caso, si può avere più database condividere lo stesso UUID. Si "
+"prega di controllare il vostro `Odoo Contratto "
+"<https://accounts.odoo.com/my/subscription>`__, a breve verrà visualizzato "
+"un messaggio di specificare il database è problematico:"
+
+#: ../../db_management/db_premise.rst:73
+msgid ""
+"In this case, you need to change the UUID on your test databases to solve "
+"this issue. You will find more information about this in :ref:`this section "
+"<duplicate_premise>`."
+msgstr ""
+"In questo caso, è necessario modificare l'UUID sul vostro database di test "
+"per risolvere questo problema. Troverete ulteriori informazioni :ref:`questa"
+" sezione <duplicate_premise>`."
+
+#: ../../db_management/db_premise.rst:76
+msgid ""
+"For your information, we identify database with UUID. Therefore, each "
+"database should have a distinct UUID to ensure that registration and "
+"invoicing proceed effortlessly for your and for us."
+msgstr ""
+"Per vostra informazione, siamo in grado di identificare database con UUID. "
+"Pertanto, ogni database dovrebbe avere un distinto UUID per garantire che la"
+" registrazione e fatturazione procedere senza sforzo per voi e per noi."
+
+#: ../../db_management/db_premise.rst:82
+msgid "Error message due to too many users"
+msgstr "Messaggio di errore a causa di troppi utenti"
+
+#: ../../db_management/db_premise.rst:84
+msgid ""
+"If you have more users in your local database than provisionned in your Odoo"
+" Enterprise subscription, you may encounter this message:"
+msgstr ""
+"Se si dispone di più utenti nel database locale di provisionned nel Odoo "
+"abbonamento Enterprise, è possibile riscontrare questo messaggio:"
+
+#: ../../db_management/db_premise.rst:93
+msgid ""
+"When the message appears you have 30 days before the expiration. The "
+"countdown is updated everyday."
+msgstr ""
+"Quando viene visualizzato il messaggio di prova di 30 giorni prima della "
+"scadenza. Il conto alla rovescia è aggiornato ogni giorno."
+
+#: ../../db_management/db_premise.rst:99
+msgid ""
+"**Add more users** on your subscription: follow the link and Validate the "
+"upsell quotation and pay for the extra users."
+msgstr ""
+"**Aggiungere più utenti** sul tuo abbonamento: segui il link e Convalidare "
+"l'upsell preventivo e pagare l'extra per gli utenti."
+
+#: ../../db_management/db_premise.rst:102
+msgid "or"
+msgstr "o"
+
+#: ../../db_management/db_premise.rst:104
+msgid ""
+"**Deactivate users** as explained in this `Documentation "
+"<https://www.odoo.com "
+"/documentation/user/10.0/db_management/documentation.html#deactivating-"
+"users>`__ and **Reject** the upsell quotation."
+msgstr ""
+"**Disattivare gli utenti** come spiegato in questa Documentazione "
+"<https://www.odoo.com "
+"/documentazione/utente/10.0/db_management/documentazione.html#disattivazione"
+" di utenti>`__ e **Rifiutare** il upsell preventivo."
+
+#: ../../db_management/db_premise.rst:109
+msgid ""
+"Once your database has the correct number of users, the expiration message "
+"will disappear automatically after a few days, when the next verification "
+"occurs. We understand that it can be a bit frightening to see the countdown,"
+" so you can :ref:`force an Update Notification <force_ping>`  to make the "
+"message disappear right away."
+msgstr ""
+"Una volta che il database è corretto numero di utenti, la scadenza messaggio"
+" scompare automaticamente dopo un paio di giorni, quando la prossima "
+"verifica si verifica. Sappiamo che può essere un po ' spaventoso vedere il "
+"conto alla rovescia, in modo da poter :ref:`forza di una Notifica di "
+"Aggiornamento <force_ping>` per far scomparire il messaggio subito."
+
+#: ../../db_management/db_premise.rst:116
+msgid "Database expired error message"
+msgstr "Database scaduto messaggio di errore"
+
+#: ../../db_management/db_premise.rst:118
+msgid ""
+"If your database reaches its expiration date before your renew your "
+"subscription, you will encounter this message:"
+msgstr ""
+"Se il database raggiunge la data di scadenza prima di rinnovare il tuo "
+"abbonamento, verrà visualizzato questo messaggio:"
+
+#: ../../db_management/db_premise.rst:126
+msgid ""
+"This **blocking** message appears after a non-blocking message that lasts 30"
+" days. If you fail to take action before the end of the countdown, the "
+"database is expired."
+msgstr ""
+"Questo **blocco** viene visualizzato il messaggio dopo un non-messaggio di "
+"blocco che dura 30 giorni. Se non si riesce ad intervenire prima della fine "
+"del conto alla rovescia, il database è scaduto."
+
+#: ../../db_management/db_premise.rst:134
+msgid ""
+"Renew your subscription: follow the link and renew your subscription - note "
+"that"
+msgstr ""
+"Rinnova il tuo abbonamento: segui il link e rinnovare il vostro abbonamento,"
+" nota che"
+
+#: ../../db_management/db_premise.rst:133
+msgid ""
+"if you wish to pay by Wire Transfer, your subscription will effectively be "
+"renewed only when the payment arrives, which can take a few days. Credit "
+"card payments are processed immediately."
+msgstr ""
+"se desideri pagare con bonifico bancario, il tuo abbonamento verrà "
+"effettivamente essere rinnovato solo se il pagamento arriva, che può "
+"richiedere un paio di giorni. Pagamenti con carta di credito vengono "
+"elaborati immediatamente."
+
+#: ../../db_management/db_premise.rst:136
+msgid "Contact our `Support <https://www.odoo.com/help>`__"
+msgstr "Contattare il nostro Supporto <https://www.odoo.com/help>`__"
+
+#: ../../db_management/db_premise.rst:138
+msgid ""
+"None of those solutions worked for you? Please contact our `Support "
+"<https://www.odoo.com/help>`__"
+msgstr ""
+"Nessuna di queste soluzioni ha funzionato per voi? Si prega di contattare il"
+" nostro Supporto <https://www.odoo.com/help>`__"
+
+#: ../../db_management/db_premise.rst:145
+msgid "Force an Update Notification"
+msgstr "Forza di una Notifica di Aggiornamento"
+
+#: ../../db_management/db_premise.rst:147
+msgid ""
+"Update Notifications happen once every 7 days and keep your database up-to-"
+"date with your Odoo Enterprise subscription. If you modify your subscription"
+" (i.e. add more users, renew it for a year, etc.), your local database will "
+"only be made aware of the change once every 7 days - this can cause "
+"discrepancies between the state of your subscription and some notifications "
+"in your App Switcher. When doing such an operation on your subscription, you"
+" can force an Update using the following procedure:"
+msgstr ""
+"Le Notifiche di aggiornamento accadere una volta ogni 7 giorni e mantenere "
+"il database aggiornato con i tuoi Odoo abbonamento Enterprise. Se si "
+"modifica il tuo abbonamento (cioè di aggiungere più utenti, il rinnovo per "
+"un anno, etc.), il tuo database locale saranno effettuati solo a conoscenza "
+"della modifica, una volta ogni 7 giorni - questo può causare discrepanze tra"
+" lo stato del tuo abbonamento e alcune notifiche nell'App Switcher. Quando "
+"si fa questa operazione sul tuo abbonamento, è possibile forzare un "
+"Aggiornamento utilizzando la seguente procedura:"
+
+#: ../../db_management/db_premise.rst:154
+msgid "Connect to the database with the **Administrator** account"
+msgstr "La connessione al database con l' **Amministratore** conto"
+
+#: ../../db_management/db_premise.rst:155
+msgid ""
+"Switch to the Developer mode by using the **About** option in the top-right "
+"menu (in V9) /  in **Settings**  (in V10): click on **Activate the developer"
+" mode**"
+msgstr ""
+"Interruttore per la modalità Sviluppatore usando il **Su** opzione in alto a"
+" destra del menu (in V9) / in * * *Impostazioni** (in V10): fare clic su "
+"**Attivare la modalità sviluppatore**"
+
+#: ../../db_management/db_premise.rst:158
+msgid ""
+"Navigate to the \"Settings\" menu, then \"Technical\" > \"Automation\" > "
+"\"Scheduled Actions\""
+msgstr ""
+"Passare al menu \"Impostazioni\", quindi \"Tecnici\" > \"Automazione\" > "
+"\"le Azioni Pianificate\""
+
+#: ../../db_management/db_premise.rst:160
+msgid ""
+"Find \"Update Notification\" in the list, click on it, and finally click on "
+"the button \"**RUN MANUALLY**\""
+msgstr ""
+"Trovare la \"Notifica di Aggiornamento\" nell'elenco, fare clic su di esso, "
+"e, infine, fare clic sul pulsante \"**manuale**\""
+
+#: ../../db_management/db_premise.rst:162
+msgid "Refresh the page, the \"Expiration\" notification should be gone"
+msgstr "Aggiorna la pagina, la \"Scadenza\" di notifica dovrebbe essere sparito"
+
+#: ../../db_management/db_premise.rst:165
+msgid ""
+"You may have kept the same UUID on different databases and we receive "
+"information from those databases too. So please read :ref:`this "
+"documentation <duplicate_premise>` to know how to change the UUID. After the"
+" change you can force a ping to speed up the verification, your production "
+"database will then be correctly identified."
+msgstr ""
+"Si può avere mantenuto lo stesso UUID su diversi database e ricevere "
+"informazioni da tali basi di dati troppo. Quindi, si prega di leggere "
+":ref:`questa documentazione <duplicate_premise>` sapere come modificare "
+"l'UUID. Dopo la modifica, è possibile forzare il ping per velocizzare la "
+"verifica, il vostro database di produzione che sarà poi identificato "
+"correttamente."
+
+#: ../../db_management/db_premise.rst:174
+msgid "Duplicate a database"
+msgstr "Duplicazione di un database"
+
+#: ../../db_management/db_premise.rst:176
+msgid ""
+"You can duplicate your database by accessing the database manager on your "
+"server (<odoo-server>/web/database/manager). In this page, you can easily "
+"duplicate your database (among other things)."
+msgstr ""
+"È possibile duplicare il database accedendo al gestore di database sul "
+"server (<odoo-server>/web/database/manager). In questa pagina, si può "
+"facilmente duplicare il database (tra le altre cose)."
+
+#: ../../db_management/db_premise.rst:184
+msgid ""
+"When you duplicate a local database, it is **strongly** advised to change "
+"the duplicated database's uuid (Unniversally Unique Identifier), since this "
+"uuid is how your database identifies itself with our servers. Having two "
+"databases with the same uuid could result in invoicing problems or "
+"registration problems down the line."
+msgstr ""
+"Quando si duplica un database locale, è **fortemente** consiglia di cambiare"
+" il duplicato del database uuid (Unniversally Identificatore Univoco), dal "
+"momento che questo uuid è come il tuo database si identifica con i nostri "
+"server. Con due database con lo stesso uuid potrebbe causare problemi di "
+"fatturazione o registrazione di problemi lungo la linea."
+
+#: ../../db_management/db_premise.rst:193
+msgid ""
+"The database uuid is currently accessible from the menu **Settings > "
+"Technical > System Parameters**, we advise you to use a `uuid generator "
+"<https://www.uuidgenerator.net>`__ or to use the unix command ``uuidgen`` to"
+" generate a new uuid. You can then simply replace it like any other record "
+"by clicking on it and using the edit button."
+msgstr ""
+"Il database uuid è attualmente accessibile dal menu **Impostazioni > Tecnica"
+" > Parametri di Sistema**, ti consigliamo di utilizzare un `uuid generatore "
+"<https://www.uuidgenerator.net>`__ o, per usare il comando unix `uuidgen` "
+"per generare un nuovo uuid. È quindi possibile sostituire semplicemente come"
+" qualsiasi altro record facendo clic su di esso e utilizzando il pulsante "
+"modifica."
+
+#: ../../db_management/documentation.rst:7
+msgid "Users and Features"
+msgstr "Gli utenti e le Caratteristiche"
+
+#: ../../db_management/documentation.rst:9
+msgid ""
+"As the administrator of your database, you are responsible for its usage. "
+"This includes the Apps you install as well as the number of users currently "
+"in use."
+msgstr ""
+"Come amministratore del database, l'utente è responsabile per il suo "
+"utilizzo. Questo include le Applicazioni installate così come il numero di "
+"utenti attualmente in uso."
+
+#: ../../db_management/documentation.rst:13
+msgid ""
+"Odoo is many things (ERP, CMS, CRM application, e-Commerce backend, etc.) "
+"but it is *not* a smartphone. You should apply caution when adding/removing "
+"features (especially Apps) on your database since this may impact your "
+"subscription amount significantly (or switch you from a free account to a "
+"paying one on our online platform)."
+msgstr ""
+"Odoo è molte cose (ERP, CMS, CRM, e-Commerce, backend, etc.) ma *non* è uno "
+"smartphone. Si dovrebbe applicare cautela durante l'aggiunta o la rimozione "
+"di caratteristiche (in particolare le Applicazioni) sul tuo database, in "
+"quanto questo può influenzare il vostro importo di sottoscrizione "
+"significativamente (o di passare da un account gratuito a pagare sulla "
+"nostra piattaforma online)."
+
+#: ../../db_management/documentation.rst:19
+msgid ""
+"This page contains some information as to how you can manage your Odoo "
+"instances. Before carrying any of these procedures, we **strongly** advise "
+"to test them on a duplicate of your database first. That way, if something "
+"goes wrong, your day-to-day business is not impacted."
+msgstr ""
+"Questa pagina contiene informazioni su come è possibile gestire il vostro "
+"Odoo istanze. Prima di eseguire una qualsiasi di queste procedure, si "
+"**fortemente** consigliamo di provarle su un duplicato del vostro database. "
+"In questo modo, se qualcosa va storto, il vostro giorno per giorno il "
+"business non è interessato."
+
+#: ../../db_management/documentation.rst:24
+msgid ""
+"You can find guides on how to duplicate your databases both for :ref:`online"
+" <duplicate_online>` and :ref:`on premise <duplicate_premise>` "
+"installations."
+msgstr ""
+"Si possono trovare guide su come duplicare il database sia per :ref:`online "
+"<duplicate_online>` e :ref:`on premise <duplicate_premise> installazioni."
+
+#: ../../db_management/documentation.rst:28
+msgid ""
+"If you have questions about the content of this page or if you encounter an "
+"issue while carrying out these procedures, please contact us through our "
+"`support form <https://www.odoo.com/help>`__."
+msgstr ""
+"Se avete domande circa il contenuto di questa pagina o se si verifica un "
+"problema durante l'esecuzione di queste procedure, vi preghiamo di "
+"contattarci attraverso il nostro \" modulo di supporto "
+"<https://www.odoo.com/help>`__."
+
+#: ../../db_management/documentation.rst:34
+msgid "Deactivating Users"
+msgstr "La Disattivazione Degli Utenti"
+
+#: ../../db_management/documentation.rst:36
+msgid ""
+"Make sure you have sufficient **administrative rights** if you want to "
+"change the status of any of your users."
+msgstr ""
+"Assicurarsi di avere sufficiente **diritti amministrativi** se si desidera "
+"modificare lo stato di uno qualsiasi dei vostri utenti."
+
+#: ../../db_management/documentation.rst:39
+msgid ""
+"In your Odoo instance, click on **Settings**. You will have a section "
+"showing you the active users on your database. Click on **Manage access "
+"rights.**"
+msgstr ""
+"Nel Odoo esempio, fare clic su **Impostazioni**. Si avrà una sezione che vi "
+"mostra gli utenti attivi sul database. Fare clic su **Gestire i diritti di "
+"accesso.**"
+
+#: ../../db_management/documentation.rst:44
+#: ../../db_management/documentation.rst:82
+msgid "|settings|"
+msgstr "|impostazioni|"
+
+#: ../../db_management/documentation.rst:44
+msgid "|browse_users|"
+msgstr "|browse_users|"
+
+#: ../../db_management/documentation.rst:47
+msgid "You'll then see the list of your users."
+msgstr "Dovresti vedere la lista dei tuoi utenti."
+
+#: ../../db_management/documentation.rst:52
+msgid ""
+"The pre-selected filter *Internal Users* shows your paying users (different "
+"from the *Portal Users* which are free). If you remove this filter, you'll "
+"get all your users (the ones you pay for and the portal ones)"
+msgstr ""
+"Il pre-filtro selezionato *Utenti Interni* la tua mostra gli utenti paganti "
+"(diverso da *gli Utenti del Portale* che sono gratuiti). Se si rimuove il "
+"filtro, avrete tutti i vostri utenti (quelli che si paga e il portale di "
+"quelle)"
+
+#: ../../db_management/documentation.rst:57
+msgid ""
+"In your list of users, click on the user you want to deactivate. As soon as "
+"you are on the userform, go with your mouse cursor on the status **Active** "
+"(top right). Click on Active and you will notice that the status will change"
+" to **Inactive** immediately."
+msgstr ""
+"Nella vostra lista di utenti, fare clic sull'utente che si desidera "
+"disattivare. Non appena il form andare con il cursore del mouse sullo stato "
+"** * * Attivo** (in alto a destra). Fare clic su Attiva e si noterà che lo "
+"stato passerà a **Inattivo** immediatamente."
+
+#: ../../db_management/documentation.rst:66
+msgid "The user is now deactivated."
+msgstr "L'utente è ora disattivato."
+
+#: ../../db_management/documentation.rst:68
+msgid "**Never** deactivate the main user (*admin*)"
+msgstr "**Mai** disattivare l'utente principale (*admin*)"
+
+#: ../../db_management/documentation.rst:71
+msgid "Uninstalling Apps"
+msgstr "La Disinstallazione Delle Applicazioni"
+
+#: ../../db_management/documentation.rst:73
+msgid ""
+"Make sure you first test what you are about to do on a :ref:`duplicate "
+"<duplicate_online>` of your database before making any changes (*especially*"
+" installing/uninstalling apps)."
+msgstr ""
+"Assicuratevi prima di testare ciò che si sta per fare un :ref:`duplicato "
+"<duplicate_online>` il database prima di effettuare qualsiasi variazione "
+"(*soprattutto* per l'installazione/disinstallazione delle applicazioni)."
+
+#: ../../db_management/documentation.rst:77
+msgid ""
+"In your Odoo instance click on **Settings**; in this app, you will be able "
+"to see how many applications you have installed. Click on **Browse Apps** to"
+" access the list of your installed applications."
+msgstr ""
+"Nel Odoo esempio fare clic su **Impostazioni**; in questa applicazione, "
+"sarete in grado di vedere quante applicazioni hai installato. Fare clic su "
+"**Sfoglia le App** per accedere all'elenco delle applicazioni installate."
+
+#: ../../db_management/documentation.rst:82
+msgid "|browse_apps|"
+msgstr "|browse_apps|"
+
+#: ../../db_management/documentation.rst:85
+msgid ""
+"In your applications' dashboard, you will see all the icons of your "
+"applications. Click on the application you want to uninstall. Then, on the "
+"form of the application, click on **Uninstall**."
+msgstr ""
+"Nelle applicazioni' cruscotto, sarà possibile visualizzare tutte le icone "
+"delle applicazioni. Fare clic sull'applicazione che si desidera "
+"disinstallare. Quindi, la forma di applicazione, fare clic su "
+"**Disinstallare**."
+
+#: ../../db_management/documentation.rst:92
+msgid ""
+"Some applications have dependencies, like Invoicing, eCommerce, etc. "
+"Therefore, the system will give you a warning message to advise you of what "
+"is about to be removed. If you uninstall your application, all its "
+"dependencies will be uninstalled as well (and the data in them will "
+"permanently disappear). If you are sure you still want to uninstall it, then"
+" click **Confirm**."
+msgstr ""
+"Alcune applicazioni hanno dipendenze, quali la Fatturazione, e-commerce, "
+"etc. Pertanto, il sistema vi darà un messaggio di avviso per avvisare "
+"l'utente di ciò che sta per essere rimosso. Se si disinstalla "
+"l'applicazione, tutte le sue dipendenze verrà disinstallato (e i dati in "
+"modo permanente, senza scomparire). Se sei sicuro di essere ancora desidera "
+"disinstallare, quindi fare clic su **Conferma**."
+
+#: ../../db_management/documentation.rst:99
+msgid ""
+"Last, after having checked the warning message (if any), click **Confirm**."
+msgstr ""
+"Per ultimo, dopo aver controllato il messaggio di avviso (se del caso), fare"
+" clic su **Conferma**."
+
+#: ../../db_management/documentation.rst:104
+msgid "You have finished uninstalling your application."
+msgstr "Avete finito di disinstallare l'applicazione."
+
+#: ../../db_management/documentation.rst:107
+msgid "Good to know"
+msgstr "Buono a sapersi"
+
+#: ../../db_management/documentation.rst:109
+msgid ""
+"**Uninstalling apps, managing users, etc. is up to you**: no one else can "
+"know if your business flow is broken better than you. If we were to "
+"uninstall applications for you, we would never be able to tell if relevant "
+"data had been removed or if one of your business flow was broken because we "
+"*do not know how you work* and therefore cannot validate these kinds of "
+"operations."
+msgstr ""
+"**La disinstallazione delle applicazioni, la gestione degli utenti, etc. sta"
+" a voi**: nessun altro può sapere se il vostro flusso di lavoro è rotto il "
+"meglio di te. Se siamo stati per disinstallare le applicazioni per voi, non "
+"saremmo mai in grado di dire se i dati rilevanti erano stati rimossi o se il"
+" tuo flusso di lavoro è stato interrotto perché noi *non so come si opera* "
+"e, pertanto, non può convalidare questi tipi di operazioni."
+
+#: ../../db_management/documentation.rst:115
+msgid ""
+"**Odoo Apps have dependencies**: this means that you may need to install "
+"modules that you do not actively use to access some features of Odoo you "
+"might need. For example, the Website Builder app is needed to be able to "
+"show your customer their Quotes in a web page. Even though you might not "
+"need or use the Website itself, it is needed for the Online Quotes feature "
+"to work properly."
+msgstr ""
+"**Odoo Applicazioni hanno dipendenze**: questo significa che potrebbe essere"
+" necessario per installare i moduli che non utilizzano attivamente per "
+"accedere ad alcune funzionalità di Odoo di cui hai bisogno. Per esempio, il "
+"Costruttore di Web site app è necessario essere in grado di mostrare il "
+"vostro cliente loro Quotazioni in una pagina web. Anche se potrebbe non "
+"essere necessario o utilizzare il Sito stesso, è necessaria per le "
+"Quotazioni Online funzioni bene."
+
+#: ../../db_management/documentation.rst:122
+msgid ""
+"**Always test app installation/removal on a duplicate** (or on a free trial "
+"database): that way you can know what other apps may be required, etc. This "
+"will avoid surprises when uninstalling or when receiving your invoices."
+msgstr ""
+"**Sempre applicazione di test di installazione/rimozione di un duplicato** "
+"(o su una versione di prova gratuita del database): in questo modo è "
+"possibile sapere a che altre applicazioni possono essere richiesti, etc. "
+"Questo per evitare sorprese durante la disinstallazione o quando la "
+"ricezione delle fatture."
